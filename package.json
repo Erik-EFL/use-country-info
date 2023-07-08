@@ -25,7 +25,7 @@
     "watch": "webpack --watch",
     "serve": "webpack serve",
     "test": "jest",
-    "test:coverage": "jest --coverage"
+    "coverage": "jest --coverage"
   },
   "repository": {
     "type": "git",
