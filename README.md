@@ -35,7 +35,7 @@ import { useCountryInfo } from 'use-country-info';
 function CountryInfo() {
   const {
     allInfo,
-    callingContries,
+    callingDDIInfo,
     flags
   } = useCountryInfo();
 
@@ -176,7 +176,7 @@ export default CountryInfo;
 
 <details>
 <br/>
-<summary> CallingContries </summary>
+<summary> CallingDDIInfo </summary>
 <br/>
 
 ```js
@@ -258,7 +258,7 @@ import { useCountryInfo } from 'use-country-info';
 function CountryInfo() {
   const {
     allInfo,
-    callingContries,
+    callingDDIInfo,
     flags
   } = useCountryInfo();
 
@@ -399,7 +399,7 @@ export default CountryInfo;
 
 <details>
 <br/>
-<summary> CallingContries </summary>
+<summary> CallingDDIInfo </summary>
 <br/>
 
 ```js

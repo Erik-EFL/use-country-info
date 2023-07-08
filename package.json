@@ -1,7 +1,7 @@
 {
-  "name": "my-webpack-project",
-  "description": "My webpack project",
-  "version": "1.0.0",
+  "name": "use-country-info",
+  "description": "use-country-info",
+  "version": "1.0.1",
   "license": "MIT",
   "author": "Erik Ferreira de Lima <erik.lima.f@outlook.com>",
   "main": "dist/index.js",
