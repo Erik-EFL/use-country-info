@@ -5,10 +5,10 @@ import { useCountryInfo } from '../index';
 describe('useCountryInfo', () => {
   test('deve retornar os dados iniciais corretamente', () => {
     const { result } = renderHook(() => useCountryInfo());
-    const { allInfo, callingContries } = result.current;
+    const { allInfo, callingDDIInfo } = result.current;
 
     expect(allInfo).toEqual(apiData);
-    expect(callingContries).toEqual(
+    expect(callingDDIInfo).toEqual(
       apiData.map((data) => ({
         countryCallingCode: data.countryCallingCode,
         flag: data.flag,
@@ -19,9 +19,9 @@ describe('useCountryInfo', () => {
 
   test('deve retornar corretament as informações de ligação', () => {
     const { result } = renderHook(() => useCountryInfo());
-    const { callingContries } = result.current;
+    const { callingDDIInfo } = result.current;
 
-    expect(callingContries).toEqual(
+    expect(callingDDIInfo).toEqual(
       apiData.map((data) => ({
         countryCallingCode: data.countryCallingCode,
         flag: data.flag,
