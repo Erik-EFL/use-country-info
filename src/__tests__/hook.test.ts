@@ -1,10 +1,10 @@
 import { renderHook } from '@testing-library/react-hooks';
-import { useCountryInfoFetcher } from '../index';
 import apiData from '../constant/data';
+import { useCountryInfo } from '../index';
 
-describe('useCountryInfoFetcher', () => {
+describe('useCountryInfo', () => {
   test('deve retornar os dados iniciais corretamente', () => {
-    const { result } = renderHook(() => useCountryInfoFetcher());
+    const { result } = renderHook(() => useCountryInfo());
     const { allInfo, callingContries } = result.current;
 
     expect(allInfo).toEqual(apiData);
@@ -18,7 +18,7 @@ describe('useCountryInfoFetcher', () => {
   });
 
   test('deve retornar corretament as informações de ligação', () => {
-    const { result } = renderHook(() => useCountryInfoFetcher());
+    const { result } = renderHook(() => useCountryInfo());
     const { callingContries } = result.current;
 
     expect(callingContries).toEqual(
@@ -31,7 +31,7 @@ describe('useCountryInfoFetcher', () => {
   })
 
   test('deve retornar corretament as bandeira', () => {
-    const { result } = renderHook(() => useCountryInfoFetcher());
+    const { result } = renderHook(() => useCountryInfo());
     const { flags } = result.current;
 
     expect(flags).toEqual(
