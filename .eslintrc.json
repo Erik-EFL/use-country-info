@@ -4,8 +4,7 @@
     "es2021": true
   },
   "extends": [
-    "plugin:react/recommended",
-    "plugin:react-hooks/recommended",
+    "plugin:@typescript-eslint/recommended",
     "airbnb"
   ],
   "parser": "@typescript-eslint/parser",
@@ -14,12 +13,12 @@
       "jsx": true
     },
     "ecmaVersion": "latest",
-    "sourceType": "module"
+    "sourceType": "module",
+    "project": "./tsconfig.eslint.json"
   },
   "plugins": [
-    "react",
+    "@typescript-eslint",
     "prettier",
-    "react-hooks",
     "import-helpers"
   ],
   "rules": {
@@ -56,20 +55,13 @@
       "newlinesBetween": "always",
       "alphabetize": { "order": "asc", "ignoreCase": true },
       "groups": [
-        "/^react/",
-        "module",
-        "absolute",
-        "parent",
-        "sibling",
-        "index"
       ]
     }],
     "no-cond-assign":"off"
   },
   "settings": {
     "import/resolver": {
-      "typescript": {},
-      "javascript": {}
+      "typescript": {}
     }
   }
 }

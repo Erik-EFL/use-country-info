@@ -7,14 +7,14 @@ export const useCountryInfo = () => {
     return apiData;
   });
 
-  let [callingDDIInfo, setCallingDDIInfo] = useState<TCallingInfo[] | null >((): TCallingInfo[]  => {
+  let [ddiInfo, setDDInfo] = useState<TCallingInfo[] | null >((): TCallingInfo[]  => {
     return apiData.map((data) => {
       const { countryCallingCode, flag, flags } = data;
       return { countryCallingCode, flag, flags };
     });
   });
 
-  let [flags, setFlags] = useState<TFlags[] | null >((): TFlags[] => {
+  let [contryflags, setContryflags] = useState<TFlags[] | null >((): TFlags[] => {
     return apiData.map((data) => {
       const { flag, flags } = data;
       return { flag, flags };
@@ -23,7 +23,7 @@ export const useCountryInfo = () => {
 
   return {
     allInfo,
-    callingDDIInfo,
-    flags
+    ddiInfo,
+    contryflags
   };
 };
