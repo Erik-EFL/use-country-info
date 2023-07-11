@@ -28172,9 +28172,4 @@ const data: TCountryInfo[] = [
   }
 ]
 
-
-
-
-
-
 export default data;

@@ -32,7 +32,7 @@ export type TCountryInfo = {
   region?: string;
   subregion?: string;
   languages?: {
-    [code: string]: string
+    [code: string]: string;
   };
   latlng?: [number, number];
   landlocked?: boolean;
@@ -93,8 +93,8 @@ export type TCallingInfo = {
     svg?: string;
     alt?: string;
   };
-  flag?: string
-}
+  flag?: string;
+};
 
 export type TFlags = {
   flags?: {
@@ -102,5 +102,5 @@ export type TFlags = {
     svg?: string;
     alt?: string;
   };
-  flag?: string
-}
+  flag?: string;
+};
