@@ -32,24 +32,24 @@ Here's a basic example of how to use the useCountryInfo hook in a React componen
 import React from 'react';
 import { useCountryInfo } from 'use-country-info';
 
-function CountryInfo() {
+function PageExample() {
   const {
-    allInfo,
-    callingDDIInfo,
+    allContryInfo,
+    ddiInfo,
     flags
   } = useCountryInfo();
 
   // Render the country data or use it as needed
   return (
     <div>
-      {allInfo.map((item): any => (
+      {allContryInfo.map((item): any => (
         <p key={item.name?.common}>{item.capital}</p>
       ))}
     </div>
   );
 }
 
-export default CountryInfo;
+export default PageExample;
 ```
 
 ## Objects example
@@ -257,24 +257,24 @@ Aqui está um exemplo básico de como utilizar o hook useCountryInfoFetcher em u
 import React from 'react';
 import { useCountryInfo } from 'use-country-info';
 
-function CountryInfo() {
+function PageExample() {
   const {
-    allInfo,
-    callingDDIInfo,
+    allContryInfo,
+    ddiInfo,
     flags
   } = useCountryInfo();
 
-  // Renderize os dados do país ou utilize-os conforme necessário
+  // Render the country data or use it as needed
   return (
     <div>
-      {allInfo.map((item): any => (
+      {allContryInfo.map((item): any => (
         <p key={item.name?.common}>{item.capital}</p>
       ))}
     </div>
   );
 }
 
-export default CountryInfo;
+export default PageExample;
 ```
 
 ## Objetos de exemplo
