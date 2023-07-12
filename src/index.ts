@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable import/no-unresolved */
 import { useState } from 'react';
 import apiData from './constant/data';
@@ -26,8 +27,5 @@ export const useCountryInfo = () => {
     allContryInfo,
     ddiInfo,
     contryflags,
-    setAllContryInfo,
-    setDDInfo,
-    setContryflags,
   };
 };
