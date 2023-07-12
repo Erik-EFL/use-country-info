@@ -4,7 +4,7 @@ import apiData from './constant/data';
 import { TCallingInfo, TCountryInfo, TFlags } from './types/contry.type';
 
 export const useCountryInfo = () => {
-  const [allInfo, setAllInfo] = useState<TCountryInfo[]>(
+  const [allContryInfo, setAllContryInfo] = useState<TCountryInfo[]>(
     (): TCountryInfo[] => apiData
   );
 
@@ -23,10 +23,10 @@ export const useCountryInfo = () => {
   );
 
   return {
-    allInfo,
+    allContryInfo,
     ddiInfo,
     contryflags,
-    setAllInfo,
+    setAllContryInfo,
     setDDInfo,
     setContryflags,
   };

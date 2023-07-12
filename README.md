@@ -42,7 +42,9 @@ function CountryInfo() {
   // Render the country data or use it as needed
   return (
     <div>
-      {/* Render the country data or use it as needed */}
+      {allInfo.map((item): any => (
+        <p key={item.name?.common}>{item.capital}</p>
+      ))}
     </div>
   );
 }
@@ -54,7 +56,7 @@ export default CountryInfo;
 
 <details>
 <br/>
-<summary> AllInfo </summary>
+<summary> AllContryInfo </summary>
 <br/>
 
 ```js
@@ -176,7 +178,7 @@ export default CountryInfo;
 
 <details>
 <br/>
-<summary> CallingDDIInfo </summary>
+<summary> ddiInfo </summary>
 <br/>
 
 ```js
@@ -265,7 +267,9 @@ function CountryInfo() {
   // Renderize os dados do país ou utilize-os conforme necessário
   return (
     <div>
-      {/* Renderize os dados do país ou utilize-os conforme necessário */}
+      {allInfo.map((item): any => (
+        <p key={item.name?.common}>{item.capital}</p>
+      ))}
     </div>
   );
 }
@@ -277,7 +281,7 @@ export default CountryInfo;
 
 <details>
 <br/>
-<summary> AllInfo </summary>
+<summary> AllContryInfo </summary>
 <br/>
 
 ```js
@@ -399,7 +403,7 @@ export default CountryInfo;
 
 <details>
 <br/>
-<summary> CallingDDIInfo </summary>
+<summary> ddiInfo </summary>
 <br/>
 
 ```js
