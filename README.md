@@ -235,11 +235,11 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 </details>
 
 ## Como usar - Português-BR
-O hook useCountryInfoFetcher é um hook React que permite obter informações detalhadas sobre países de forma fácil e eficiente. Com este hook, você pode acessar dados abrangentes, como informações demográficas, geográficas e culturais de qualquer país diretamente no seu aplicativo React.
+O hook useCountryInfo é um hook React que permite obter informações detalhadas sobre países de forma fácil e eficiente. Com este hook, você pode acessar dados abrangentes, como informações demográficas, geográficas e culturais de qualquer país diretamente no seu aplicativo React.
 
 ## Instalação
 
-Para utilizar o hook useCountryInfoFetcher, você precisa ter o React instalado em seu projeto. Execute o seguinte comando para instalar o hook:
+Para utilizar o hook useCountryInfo, você precisa ter o React instalado em seu projeto. Execute o seguinte comando para instalar o hook:
 
 ```shell
 npm install use-country-info
@@ -252,7 +252,7 @@ yarn add use-country-info
 ```
 
 ## Uso
-Aqui está um exemplo básico de como utilizar o hook useCountryInfoFetcher em um componente React:
+Aqui está um exemplo básico de como utilizar o hook useCountryInfo em um componente React:
 
 ```js
 import React from 'react';
@@ -446,7 +446,7 @@ export default PageExample;
 ##
 
 
-No exemplo acima, importamos o hook useCountryInfoFetcher e o utilizamos no componente CountryInfo. O hook retorna duas variáveis: allInfo e callingCountries, que contêm as informações de todos os países e as informações específicas para os códigos de chamada de cada país, respectivamente.
+No exemplo acima, importamos o hook useCountryInfo e o utilizamos no componente CountryInfo. O hook retorna duas variáveis: allInfo e callingCountries, que contêm as informações de todos os países e as informações específicas para os códigos de chamada de cada país, respectivamente.
 
 Você pode utilizar essas variáveis para renderizar as informações dos países no seu componente ou utilizá-las conforme necessário.
 
