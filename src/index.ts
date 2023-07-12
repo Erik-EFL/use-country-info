@@ -3,7 +3,7 @@ import { useState } from 'react';
 import apiData from './constant/data';
 import { TCallingInfo, TCountryInfo, TFlags } from './types/contry.type';
 
-const useCountryInfo = () => {
+export const useCountryInfo = () => {
   const [allInfo, setAllInfo] = useState<TCountryInfo[]>(
     (): TCountryInfo[] => apiData
   );
@@ -31,5 +31,3 @@ const useCountryInfo = () => {
     setContryflags,
   };
 };
-
-export { useCountryInfo };
