@@ -237,14 +237,15 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 ## Como usar - Português-BR
 O hook useCountryInfoFetcher é um hook React que permite obter informações detalhadas sobre países de forma fácil e eficiente. Com este hook, você pode acessar dados abrangentes, como informações demográficas, geográficas e culturais de qualquer país diretamente no seu aplicativo React.
 
-Instalação
+## Instalação
+
 Para utilizar o hook useCountryInfoFetcher, você precisa ter o React instalado em seu projeto. Execute o seguinte comando para instalar o hook:
 
 ```shell
 npm install use-country-info
 ```
 
-or
+ou
 
 ```shell
 yarn add use-country-info
