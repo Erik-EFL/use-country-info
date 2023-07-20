@@ -82,25 +82,3 @@ export type TCountryInfo = {
     regex?: string;
   };
 };
-
-export type TCallingInfo = {
-  countryCallingCode?: {
-    root?: string;
-    suffixes?: string[];
-  };
-  flags?: {
-    png?: string;
-    svg?: string;
-    alt?: string;
-  };
-  flag?: string;
-};
-
-export type TFlags = {
-  flags?: {
-    png?: string;
-    svg?: string;
-    alt?: string;
-  };
-  flag?: string;
-};
