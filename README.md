@@ -34,15 +34,15 @@ import { useCountryInfo } from 'use-country-info';
 
 function PageExample() {
   const {
-    allContryInfo,
+    allCountryInfo,
     ddiInfo,
-    flags
+    countryflags
   } = useCountryInfo();
 
   // Render the country data or use it as needed
   return (
     <div>
-      {allContryInfo.map((item): any => (
+      {allCountryInfo.map((item): any => (
         <p key={item.name?.common}>{item.capital}</p>
       ))}
     </div>
@@ -56,7 +56,7 @@ export default PageExample;
 
 <details>
 <br/>
-<summary> AllContryInfo </summary>
+<summary> AllCountryInfo </summary>
 <br/>
 
 ```js
@@ -202,11 +202,15 @@ export default PageExample;
 
 <details>
 <br/>
-<summary> Flags </summary>
+<summary> countryflags </summary>
 <br/>
 
 ```js
   {
+    "name": {
+      "common": "Jordan",
+      "official": "Hashemite Kingdom of Jordan",
+    },
     "flag": "🇲🇵",
     "flags": {
       "png": "https://flagcdn.com/w320/jo.png",
@@ -260,15 +264,15 @@ import { useCountryInfo } from 'use-country-info';
 
 function PageExample() {
   const {
-    allContryInfo,
+    allCountryInfo,
     ddiInfo,
-    flags
+    countryflags
   } = useCountryInfo();
 
   // Render the country data or use it as needed
   return (
     <div>
-      {allContryInfo.map((item): any => (
+      {allCountryInfo.map((item): any => (
         <p key={item.name?.common}>{item.capital}</p>
       ))}
     </div>
@@ -282,7 +286,7 @@ export default PageExample;
 
 <details>
 <br/>
-<summary> AllContryInfo </summary>
+<summary> AllCountryInfo </summary>
 <br/>
 
 ```js
@@ -428,11 +432,15 @@ export default PageExample;
 
 <details>
 <br/>
-<summary> Flags </summary>
+<summary> countryflags </summary>
 <br/>
 
 ```js
   {
+    "name": {
+      "common": "Jordan",
+      "official": "Hashemite Kingdom of Jordan",
+    },
     "flag": "🇲🇵",
     "flags": {
       "png": "https://flagcdn.com/w320/jo.png",
