@@ -1,3 +1,4 @@
+/* eslint-disable no-unsafe-optional-chaining */
 /* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable import/no-unresolved */
 import { useState } from 'react';
@@ -20,11 +21,16 @@ export const useCountryInfo = () => {
 
   const [countryflags, setCountryflags] = useState<TCountryFlags[]>(
     (): TCountryFlags[] =>
+      apiData.map((data) => {
+        const { flag, flags, name } = data;
+
+        return { flag, flags, name };
+      })
   );
 
   return {
-    allContryInfo,
+    allCountryInfo,
     ddiInfo,
-    contryflags,
+    countryflags,
   };
 };
