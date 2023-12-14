@@ -1,4 +1,3 @@
-/* eslint-disable import/no-unresolved */
 import { TCountryFlags } from 'src/types/contry-flags.type';
 import { TCountryInfo } from '../types/contry.type';
 import { TDdiInfo } from '../types/ddi.type';

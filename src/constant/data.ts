@@ -1,7 +1,6 @@
-/* eslint-disable import/no-unresolved */
 import { TCountryInfo } from '../types/contry.type';
 
-const data: TCountryInfo[] = [
+export const data: TCountryInfo[] = [
   {
     name: {
       common: 'Jordan',
@@ -22347,5 +22346,3 @@ const data: TCountryInfo[] = [
     },
   },
 ];
-
-export default data;
