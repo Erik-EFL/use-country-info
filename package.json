@@ -24,9 +24,8 @@
     "start": "parcel start ./src/index.ts",
     "dev": "nodemon --watch \"src//\" --exec \"ts-node src/index.ts\" -e ts",
     "test": "jest",
-    "coverage": "jest --coverage",
-    "deploy": "npm version patch && npm publish",
-    "deps": "npm install --legacy-peer-deps"
+    "coverage": "node test.js --watchAll=false --coverage --watchAll=false",
+    "deploy": "npm version patch && npm publish"
   },
   "repository": {
     "type": "git",
@@ -51,7 +50,9 @@
       "src/**/*.{js,jsx,ts,tsx}",
       "!src/index.tsx",
       "!src/reportWebVitals.{js,ts}",
-      "!src/**/*.d.{js,ts}"
+      "!src/**/*.d.{js,ts}",
+      "!src/mock/data.mock.ts"
+
     ],
     "preset": "ts-jest",
     "testEnvironment": "node",

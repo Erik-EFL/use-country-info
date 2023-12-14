@@ -111,4 +111,49 @@ describe('useCountryInfo', () => {
     expect(countryflags[0]).toHaveProperty('flag');
     expect(countryflags[0]).toHaveProperty('flags');
   });
+
+  it('deve retornar um array com o comprimento esperado', () => {
+    const { ddiInfo } = useCountryInfo();
+
+    expect(ddiInfo).toHaveLength(1);
+  });
+
+  it('deve conter objetos com a estrutura correta', () => {
+    const { countryflags } = useCountryInfo();
+
+    expect(countryflags[0]).toHaveProperty('flag');
+    expect(countryflags[0]).toHaveProperty('flags');
+  });
+
+  it('deve chamar useMemo corretamente para mapDdiInfo', () => {
+    jest.spyOn(React, 'useMemo').mockImplementation((fn) => {
+      if (fn instanceof Function) {
+        return fn();
+      } else {
+        return fn;
+      }
+    });
+
+    useCountryInfo();
+
+    expect(React.useMemo).toHaveBeenCalledWith(expect.any(Function), [
+      expect.any(Function),
+    ]);
+  });
+
+  it('deve chamar useMemo corretamente para mapCountryFlags', () => {
+    jest.spyOn(React, 'useMemo').mockImplementation((fn) => {
+      if (fn instanceof Function) {
+        return fn();
+      } else {
+        return fn;
+      }
+    });
+
+    useCountryInfo();
+
+    expect(React.useMemo).toHaveBeenCalledWith(expect.any(Function), [
+      expect.any(Function),
+    ]);
+  });
 });
