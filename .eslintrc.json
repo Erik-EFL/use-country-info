@@ -4,9 +4,7 @@
     "es2021": true
   },
   "extends": [
-    "plugin:react/recommended",
-    "plugin:@typescript-eslint/recommended",
-    "airbnb"
+    "plugin:react/recommended"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -17,18 +15,13 @@
     "sourceType": "module",
     "project": "./tsconfig.eslint.json"
   },
-  "plugins": [
-    "react",
-    "@typescript-eslint",
-    "prettier",
-    "import-helpers"
-  ],
+  "plugins": ["react", "@typescript-eslint", "prettier"],
   "rules": {
     "react/jsx-curly-newline": "off",
     "import/extensions": "off",
     "import/prefer-default-export": "off",
     "implicit-arrow-linebreak": "off",
-    "arrow-parens":"off",
+    "arrow-parens": "off",
     "function-paren-newline": "off",
     "operator-linebreak": "off",
     "prettier/prettier": "error",
@@ -47,13 +40,10 @@
     "react/jsx-filename-extension": [
       1,
       {
-        "extensions": [
-          ".ts",
-          ".tsx"
-        ]
+        "extensions": [".ts", ".tsx"]
       }
     ],
-    "no-cond-assign":"off"
+    "no-cond-assign": "off"
   },
   "settings": {
     "node": {
