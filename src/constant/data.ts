@@ -1,6 +1,6 @@
 import { TCountryInfo } from '../types/contry.type';
 
-export const data: TCountryInfo[] = [
+export const apiData: TCountryInfo[] = [
   {
     name: {
       common: 'Jordan',
