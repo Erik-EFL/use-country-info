@@ -1,7 +1,7 @@
 {
   "name": "use-country-info",
   "description": "use-country-info",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "license": "MIT",
   "author": "Erik Ferreira de Lima <erik.lima.f@outlook.com>",
   "main": "dist/index.js",
@@ -52,7 +52,6 @@
       "!src/reportWebVitals.{js,ts}",
       "!src/**/*.d.{js,ts}",
       "!src/mock/data.mock.ts"
-
     ],
     "preset": "ts-jest",
     "testEnvironment": "node",
