@@ -4,11 +4,7 @@
 
 ## How to works
 
-<br/>
-### English-USA
-<br/>
-
-The `useCountryInfo` hook is a React hook that allows you to easily and efficiently fetch detailed information about countries. With this hook, you can access comprehensive data such as demographic, geographic, and cultural information about any country directly in your React application.
+`useCountryInfo` is a hook that allows you to obtain detailed information about countries in an easy, efficient and synchronous way. From there you can access comprehensive data, such as demographic, geographic and cultural information about any country, directly in your application.
 
 ## Installation
 
@@ -16,12 +12,6 @@ To use the `useCountryInfo` hook, you need to have React installed in your proje
 
 ```shell
 npm install use-country-info
-```
-
-or
-
-```shell
-yarn add use-country-info
 ```
 
 ## Usage
@@ -219,6 +209,27 @@ export default PageExample;
   }
 ```
 </details>
+
+## Additional functions to search for different information from each country:
+
+```js
+  getCountryByBorder(searchedBorder), // string,
+  getCountryByName(name), // string,
+  getCountryByFlag(name), // string,
+  getCountryByRegion(region), // string,
+  getCountryBySubregion(subregion), // string,
+  getCountryByLanguage(language), // string,
+  getCountryByCurrency(currency), // string,
+  getCountryByCallingCode(callingCode), // string,
+  getCountryByTimezone(timezone), // string,
+  getCountryByCapital(capital), // string,
+  getCountryByPopulation(population), // number,
+  getCountryByArea(area), // number,
+  getCountryByDemonym(demonym), // string,
+  getCountryByLatitudAndLongitud(latitude, longitude), // number,
+  getCountryByGini(gini), // number,
+  getCountryByFifa(fifaName), //string,
+```
 
 ##
 
