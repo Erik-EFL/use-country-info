@@ -4,18 +4,18 @@
 
 ## How to works
 
-`useCountryInfo` is a hook that allows you to obtain detailed information about countries in an easy, efficient and synchronous way. From there you can access comprehensive data, such as demographic, geographic and cultural information about any country, directly in your application.
+`useCountryInfo` is a function that allows you to obtain detailed information about countries in an easy, efficient and synchronous way. From there you can access comprehensive data, such as demographic, geographic and cultural information about any country, directly in your application.
 
 ## Installation
 
-To use the `useCountryInfo` hook, you need to have React installed in your project. Run the following command to install the hook:
+To use the `useCountryInfo` function, you need to have React installed in your project. Run the following command to install the function:
 
 ```shell
 npm install use-country-info
 ```
 
 ## Usage
-Here's a basic example of how to use the useCountryInfo hook in a React component:
+Here is a basic example of how to use the useCountryInfo function in a React component, but it can be used in any front end that needs it as it has no codependency:
 
 ```js
 import React from 'react';
