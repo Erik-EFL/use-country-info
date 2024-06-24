@@ -31,6 +31,9 @@ jobs:
       - name: Generate code coverage report
         run: npm run coverage
 
+      - name: Update NPM version
+        run: npm run deploy
+
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v3
         with:
