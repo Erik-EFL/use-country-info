@@ -29,12 +29,6 @@
     "no-undef": "off",
     "no-shadow": "off",
     "comma-dangle": "off",
-    "react/jsx-filename-extension": [
-      1,
-      {
-        "extensions": [".ts", ".tsx"]
-      }
-    ],
     "no-cond-assign": "off"
   },
   "settings": {

@@ -1,5 +1,3 @@
-// src/setupTests.js
-import '@testing-library/jest-dom';
 import { TCountryFlags } from '../types/contry-flags.type';
 import { TDdiInfo } from '../types/ddi.type';
 import { mapCountryFlags, mapDdiInfo } from '../utils/map.utils';
