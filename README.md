@@ -8,8 +8,6 @@
 
 ## Installation
 
-To use the `useCountryInfo` function, you need to have React installed in your project. Run the following command to install the function:
-
 ```shell
 npm install use-country-info
 ```
