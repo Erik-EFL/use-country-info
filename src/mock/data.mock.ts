@@ -1,5 +1,5 @@
 import { TCountryFlags } from 'src/types/contry-flags.type';
-import { TCountryInfo } from '../types/contry.type';
+import { TCountryInfo } from '../types/country.type';
 import { TDdiInfo } from '../types/ddi.type';
 
 export const MockAllCountryInfo: TCountryInfo[] = [
