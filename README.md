@@ -229,12 +229,6 @@ export default PageExample;
   getCountryByFifa(fifaName), //string,
 ```
 
-##
-
-In the above example, we import the useCountryInfoFetcher hook and use it in the CountryInfo component. The hook returns two variables: allInfo and callingCountries, which contain the information for all countries and the specific information for the calling codes of each country, respectively.
-
-You can use these variables to render the country information in your component or use it as needed.
-
 ## Contribution
 This is an open-source project, and we welcome contributions from the community. If you encounter issues, bugs, or have ideas for improvements, feel free to open an issue or submit a pull request in the official repository on GitHub.
 
