@@ -1,6 +1,6 @@
 import { apiData } from './constant/data';
 import { TCountryFlags } from './types/contry-flags.type';
-import { TCountryInfo } from './types/contry.type';
+import { TCountryInfo } from './types/country.type';
 import { TDdiInfo } from './types/ddi.type';
 import { mapCountryFlags, mapDdiInfo } from './utils/map.utils';
 
