@@ -1,7 +1,7 @@
 {
   "name": "use-country-info",
   "description": "use-country-info",
-  "version": "1.0.23",
+  "version": "1.0.24",
   "license": "MIT",
   "author": "Erik Ferreira de Lima <erik.lima.f@outlook.com>",
   "main": "dist/index.js",
