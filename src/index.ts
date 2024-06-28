@@ -4,11 +4,7 @@ import { TCountryInfo } from './types/country.type';
 import { TDdiInfo } from './types/ddi.type';
 import { mapCountryFlags, mapDdiInfo } from './utils/map.utils';
 
-/**
- * Provides various country information.
- * @returns {Object} Object containing country information and various utility functions.
- */
-export const useCountryInfo = (): object => {
+export const useCountryInfo = () => {
   const allCountryInfo: TCountryInfo[] = apiData;
 
   const ddiInfo: TDdiInfo[] = apiData.map(mapDdiInfo);
@@ -18,9 +14,8 @@ export const useCountryInfo = (): object => {
   /**
    * Gets countries by a shared border.
    * @param {string} searchedBorder - The border to search for.
-   * @returns {TCountryInfo[]} An array of countries sharing the specified border.
    */
-  const getCountryByBorder = (searchedBorder: string): TCountryInfo[] => {
+  const getCountryByBorder = (searchedBorder: string) => {
     return allCountryInfo.filter((country) => {
       country?.borders?.some((border) => border === searchedBorder);
     });
@@ -29,9 +24,8 @@ export const useCountryInfo = (): object => {
   /**
    * Gets a country by name.
    * @param {string} name - The name of the country.
-   * @returns {TCountryInfo | undefined} The country information or undefined if not found.
    */
-  const getCountryByName = (name: string): TCountryInfo | undefined => {
+  const getCountryByName = (name: string) => {
     return allCountryInfo.find((country) => {
       return (
         country.name?.common === name ||
@@ -44,36 +38,32 @@ export const useCountryInfo = (): object => {
   /**
    * Gets a country by flag.
    * @param {string} name - The flag of the country.
-   * @returns {TCountryInfo | undefined} The country information or undefined if not found.
    */
-  const getCountryByFlag = (name: string): TCountryInfo | undefined => {
+  const getCountryByFlag = (name: string) => {
     return allCountryInfo.find((country) => country.flag === name);
   };
 
   /**
    * Gets countries by region.
    * @param {string} region - The region to search for.
-   * @returns {TCountryInfo[]} An array of countries in the specified region.
    */
-  const getCountryByRegion = (region: string): TCountryInfo[] => {
+  const getCountryByRegion = (region: string) => {
     return allCountryInfo.filter((country) => country.region === region);
   };
 
   /**
    * Gets countries by subregion.
    * @param {string} subregion - The subregion to search for.
-   * @returns {TCountryInfo[]} An array of countries in the specified subregion.
    */
-  const getCountryBySubregion = (subregion: string): TCountryInfo[] => {
+  const getCountryBySubregion = (subregion: string) => {
     return allCountryInfo.filter((country) => country.subregion === subregion);
   };
 
   /**
    * Gets countries by language.
    * @param {string} language - The language to search for.
-   * @returns {TCountryInfo[]} An array of countries where the specified language is spoken.
    */
-  const getCountryByLanguage = (language: string): TCountryInfo[] => {
+  const getCountryByLanguage = (language: string) => {
     const foundCountries: TCountryInfo[] = [];
 
     allCountryInfo.forEach((country) => {
@@ -96,9 +86,8 @@ export const useCountryInfo = (): object => {
   /**
    * Gets countries by currency.
    * @param {string} currency - The currency to search for.
-   * @returns {TCountryInfo[]} An array of countries using the specified currency.
    */
-  const getCountryByCurrency = (currency: string): TCountryInfo[] => {
+  const getCountryByCurrency = (currency: string) => {
     const foundCountries: TCountryInfo[] = [];
 
     allCountryInfo.forEach((country) => {
@@ -126,9 +115,8 @@ export const useCountryInfo = (): object => {
   /**
    * Gets a country by calling code.
    * @param {string} callingCode - The calling code to search for.
-   * @returns {TDdiInfo | undefined} The country information or undefined if not found.
    */
-  const getCountryByCallingCode = (callingCode: string): TDdiInfo | undefined => {
+  const getCountryByCallingCode = (callingCode: string)=> {
     return ddiInfo.find(
       (country) => country.countryCallingCode?.root === callingCode ||
         country.countryCallingCode?.suffixes?.includes(callingCode)
@@ -138,9 +126,8 @@ export const useCountryInfo = (): object => {
   /**
    * Gets countries by timezone.
    * @param {string} timezone - The timezone to search for.
-   * @returns {TCountryInfo[]} An array of countries in the specified timezone.
    */
-  const getCountryByTimezone = (timezone: string): TCountryInfo[] => {
+  const getCountryByTimezone = (timezone: string) => {
     return allCountryInfo.filter((country) => {
       country.timezones?.includes(timezone);
     });
@@ -149,9 +136,8 @@ export const useCountryInfo = (): object => {
   /**
    * Gets countries by capital.
    * @param {string} capital - The capital to search for.
-   * @returns {TCountryInfo[]} An array of countries with the specified capital.
    */
-  const getCountryByCapital = (capital: string): TCountryInfo[] => {
+  const getCountryByCapital = (capital: string) => {
     return allCountryInfo.filter((country) => {
       country.capital?.includes(capital);
     });
@@ -160,9 +146,8 @@ export const useCountryInfo = (): object => {
   /**
    * Gets countries by population.
    * @param {number} population - The population to search for.
-   * @returns {TCountryInfo[]} An array of countries with the specified population.
    */
-  const getCountryByPopulation = (population: number): TCountryInfo[] => {
+  const getCountryByPopulation = (population: number) => {
     return allCountryInfo.filter((country) => {
       country.population === population;
     });
@@ -171,9 +156,8 @@ export const useCountryInfo = (): object => {
   /**
    * Gets countries by area.
    * @param {number} area - The area to search for.
-   * @returns {TCountryInfo[]} An array of countries with the specified area.
    */
-  const getCountryByArea = (area: number): TCountryInfo[] => {
+  const getCountryByArea = (area: number) => {
     return allCountryInfo.filter((country) => {
       country.area === area;
     });
@@ -182,9 +166,8 @@ export const useCountryInfo = (): object => {
   /**
    * Gets countries by demonym.
    * @param {string} demonym - The demonym to search for.
-   * @returns {TCountryInfo[]} An array of countries with the specified demonym.
    */
-  const getCountryByDemonym = (demonym: string): TCountryInfo[] => {
+  const getCountryByDemonym = (demonym: string) => {
     return allCountryInfo.filter((country) => {
       country.demonyms?.eng?.f === demonym ||
         country.demonyms?.eng?.m === demonym ||
@@ -197,23 +180,21 @@ export const useCountryInfo = (): object => {
    * Gets countries by latitude and longitude.
    * @param {number} latitude - The latitude to search for.
    * @param {number} longitude - The longitude to search for.
-   * @returns {TCountryInfo[]} An array of countries located at the specified latitude and longitude.
    */
   const getCountryByLatitudAndLongitud = (
     latitude: number,
     longitude: number
-  ): TCountryInfo[] => {
+  ) => {
     return allCountryInfo.filter((country) => {
-      country.latlng?.includes(latitude) && country.latlng?.includes(longitude);
+      return country.latlng?.[0] === latitude && country.latlng?.[1] === longitude;
     });
   };
 
   /**
    * Gets a country by Gini index.
    * @param {number} gini - The Gini index to search for.
-   * @returns {TCountryInfo | undefined} The country information or undefined if not found.
    */
-  const getCountryByGini = (gini: number): TCountryInfo | undefined => {
+  const getCountryByGini = (gini: number) => {
     return allCountryInfo.find((country) => {
       return country.gini?.[0] === gini;
     });
@@ -222,11 +203,10 @@ export const useCountryInfo = (): object => {
   /**
    * Gets countries by FIFA code.
    * @param {string} fifaName - The FIFA code to search for.
-   * @returns {TCountryInfo[]} An array of countries with the specified FIFA code.
    */
-  const getCountryByFifa = (fifaName: string): TCountryInfo[] => {
+  const getCountryByFifa = (fifaName: string) => {
     return allCountryInfo.filter((country) => {
-      country.fifa === fifaName;
+      country.fifa?.includes(fifaName);
     });
   };
 
