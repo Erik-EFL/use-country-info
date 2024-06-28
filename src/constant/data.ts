@@ -29,6 +29,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "₣"
     }
   },
+  countryCallingCode: {
+    root: "+6",
+    suffixes: [
+      "81"
+    ]
+  },
   capital: [
     "Mata-Utu"
   ],
@@ -127,6 +133,12 @@ export const apiData: TCountryInfo[] = [
       name: "Icelandic króna",
       symbol: "kr"
     }
+  },
+  countryCallingCode: {
+    root: "+3",
+    suffixes: [
+      "54"
+    ]
   },
   capital: [
     "Reykjavik"
@@ -238,6 +250,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "€"
     }
   },
+  countryCallingCode: {
+    root: "+3",
+    suffixes: [
+      "52"
+    ]
+  },
   capital: [
     "Luxembourg"
   ],
@@ -346,6 +364,12 @@ export const apiData: TCountryInfo[] = [
       name: "West African CFA franc",
       symbol: "Fr"
     }
+  },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "23"
+    ]
   },
   capital: [
     "Bamako"
@@ -464,6 +488,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "Fr"
     }
   },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "69"
+    ]
+  },
   capital: [
     "Moroni"
   ],
@@ -568,6 +598,12 @@ export const apiData: TCountryInfo[] = [
       name: "Australian dollar",
       symbol: "$"
     }
+  },
+  countryCallingCode: {
+    root: "+6",
+    suffixes: [
+      "1"
+    ]
   },
   capital: [
     "Canberra"
@@ -674,6 +710,12 @@ export const apiData: TCountryInfo[] = [
       name: "Euro",
       symbol: "€"
     }
+  },
+  countryCallingCode: {
+    root: "+3",
+    suffixes: [
+      "72"
+    ]
   },
   capital: [
     "Tallinn"
@@ -783,6 +825,12 @@ export const apiData: TCountryInfo[] = [
       name: "Canadian dollar",
       symbol: "$"
     }
+  },
+  countryCallingCode: {
+    root: "+1",
+    suffixes: [
+      ""
+    ]
   },
   capital: [
     "Ottawa"
@@ -895,6 +943,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "Br"
     }
   },
+  countryCallingCode: {
+    root: "+3",
+    suffixes: [
+      "75"
+    ]
+  },
   capital: [
     "Minsk"
   ],
@@ -1005,6 +1059,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "$"
     }
   },
+  countryCallingCode: {
+    root: "+5",
+    suffixes: [
+      "92"
+    ]
+  },
   capital: [
     "Georgetown"
   ],
@@ -1109,6 +1169,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "D"
     }
   },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "20"
+    ]
+  },
   capital: [
     "Banjul"
   ],
@@ -1210,6 +1276,12 @@ export const apiData: TCountryInfo[] = [
       name: "Tunisian dinar",
       symbol: "د.ت"
     }
+  },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "16"
+    ]
   },
   capital: [
     "Tunis"
@@ -1318,6 +1390,12 @@ export const apiData: TCountryInfo[] = [
       name: "Central African CFA franc",
       symbol: "Fr"
     }
+  },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "37"
+    ]
   },
   capital: [
     "Yaoundé"
@@ -1436,6 +1514,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "Fr"
     }
   },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "50"
+    ]
+  },
   capital: [
     "Kigali"
   ],
@@ -1549,6 +1633,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "$"
     }
   },
+  countryCallingCode: {
+    root: "+8",
+    suffixes: [
+      "55"
+    ]
+  },
   capital: [
     "Phnom Penh"
   ],
@@ -1650,6 +1740,12 @@ export const apiData: TCountryInfo[] = [
       name: "West African CFA franc",
       symbol: "Fr"
     }
+  },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "29"
+    ]
   },
   capital: [
     "Porto-Novo"
@@ -1756,6 +1852,12 @@ export const apiData: TCountryInfo[] = [
       name: "Euro",
       symbol: "€"
     }
+  },
+  countryCallingCode: {
+    root: "+3",
+    suffixes: [
+      "0"
+    ]
   },
   capital: [
     "Athens"
@@ -1864,6 +1966,12 @@ export const apiData: TCountryInfo[] = [
       name: "South Korean won",
       symbol: "₩"
     }
+  },
+  countryCallingCode: {
+    root: "+8",
+    suffixes: [
+      "2"
+    ]
   },
   capital: [
     "Seoul"
@@ -1978,6 +2086,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "₨"
     }
   },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "30"
+    ]
+  },
   capital: [
     "Port Louis"
   ],
@@ -2081,6 +2195,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "$"
     }
   },
+  countryCallingCode: {
+    root: "+1",
+    suffixes: [
+      "340"
+    ]
+  },
   capital: [
     "Charlotte Amalie"
   ],
@@ -2178,6 +2298,12 @@ export const apiData: TCountryInfo[] = [
       name: "Euro",
       symbol: "€"
     }
+  },
+  countryCallingCode: {
+    root: "+3",
+    suffixes: [
+      "5818"
+    ]
   },
   capital: [
     "Mariehamn"
@@ -2279,6 +2405,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "€"
     }
   },
+  countryCallingCode: {
+    root: "+3",
+    suffixes: [
+      "78"
+    ]
+  },
   capital: [
     "City of San Marino"
   ],
@@ -2379,6 +2511,12 @@ export const apiData: TCountryInfo[] = [
       name: "Maldivian rufiyaa",
       symbol: ".ރ"
     }
+  },
+  countryCallingCode: {
+    root: "+9",
+    suffixes: [
+      "60"
+    ]
   },
   capital: [
     "Malé"
@@ -2490,6 +2628,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "Vt"
     }
   },
+  countryCallingCode: {
+    root: "+6",
+    suffixes: [
+      "78"
+    ]
+  },
   capital: [
     "Port Vila"
   ],
@@ -2598,6 +2742,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "MK"
     }
   },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "65"
+    ]
+  },
   capital: [
     "Lilongwe"
   ],
@@ -2704,6 +2854,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "£"
     }
   },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "0"
+    ]
+  },
   capital: [
     "Cairo"
   ],
@@ -2808,6 +2964,12 @@ export const apiData: TCountryInfo[] = [
       name: "West African CFA franc",
       symbol: "Fr"
     }
+  },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "21"
+    ]
   },
   capital: [
     "Dakar"
@@ -2915,6 +3077,12 @@ export const apiData: TCountryInfo[] = [
       name: "lari",
       symbol: "₾"
     }
+  },
+  countryCallingCode: {
+    root: "+9",
+    suffixes: [
+      "95"
+    ]
   },
   capital: [
     "Tbilisi"
@@ -3029,6 +3197,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "$"
     }
   },
+  countryCallingCode: {
+    root: "+6",
+    suffixes: [
+      "4"
+    ]
+  },
   capital: [
     "Wellington"
   ],
@@ -3133,6 +3307,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "Esc"
     }
   },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "38"
+    ]
+  },
   capital: [
     "Praia"
   ],
@@ -3233,6 +3413,12 @@ export const apiData: TCountryInfo[] = [
       name: "Euro",
       symbol: "€"
     }
+  },
+  countryCallingCode: {
+    root: "+3",
+    suffixes: [
+      "9"
+    ]
   },
   capital: [
     "Rome"
@@ -3342,6 +3528,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "€"
     }
   },
+  countryCallingCode: {
+    root: "+3",
+    suffixes: [
+      "77"
+    ]
+  },
   capital: [
     "Monaco"
   ],
@@ -3442,6 +3634,12 @@ export const apiData: TCountryInfo[] = [
       name: "Euro",
       symbol: "€"
     }
+  },
+  countryCallingCode: {
+    root: "+4",
+    suffixes: [
+      "21"
+    ]
   },
   capital: [
     "Bratislava"
@@ -3550,6 +3748,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "$"
     }
   },
+  countryCallingCode: {
+    root: "+5",
+    suffixes: [
+      "98"
+    ]
+  },
   capital: [
     "Montevideo"
   ],
@@ -3653,6 +3857,12 @@ export const apiData: TCountryInfo[] = [
       name: "Lao kip",
       symbol: "₭"
     }
+  },
+  countryCallingCode: {
+    root: "+8",
+    suffixes: [
+      "56"
+    ]
   },
   capital: [
     "Vientiane"
@@ -3770,6 +3980,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "kr"
     }
   },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "98"
+    ]
+  },
   capital: [
     "Tórshavn"
   ],
@@ -3874,6 +4090,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "$"
     }
   },
+  countryCallingCode: {
+    root: "+6",
+    suffixes: [
+      "83"
+    ]
+  },
   capital: [
     "Alofi"
   ],
@@ -3971,6 +4193,12 @@ export const apiData: TCountryInfo[] = [
       name: "denar",
       symbol: "den"
     }
+  },
+  countryCallingCode: {
+    root: "+3",
+    suffixes: [
+      "89"
+    ]
   },
   capital: [
     "Skopje"
@@ -4080,6 +4308,12 @@ export const apiData: TCountryInfo[] = [
       name: "Chilean peso",
       symbol: "$"
     }
+  },
+  countryCallingCode: {
+    root: "+5",
+    suffixes: [
+      "6"
+    ]
   },
   capital: [
     "Santiago"
@@ -4191,6 +4425,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "€"
     }
   },
+  countryCallingCode: {
+    root: "+3",
+    suffixes: [
+      "57"
+    ]
+  },
   capital: [
     "Nicosia"
   ],
@@ -4300,6 +4540,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "P"
     }
   },
+  countryCallingCode: {
+    root: "+8",
+    suffixes: [
+      "53"
+    ]
+  },
   capital: [],
   altSpellings: [
     "MO",
@@ -4399,6 +4645,12 @@ export const apiData: TCountryInfo[] = [
       name: "United States dollar",
       symbol: "$"
     }
+  },
+  countryCallingCode: {
+    root: "+5",
+    suffixes: [
+      "03"
+    ]
   },
   capital: [
     "San Salvador"
@@ -4504,6 +4756,12 @@ export const apiData: TCountryInfo[] = [
       name: "Jordanian dinar",
       symbol: "د.ا"
     }
+  },
+  countryCallingCode: {
+    root: "+9",
+    suffixes: [
+      "62"
+    ]
   },
   capital: [
     "Amman"
@@ -4616,6 +4874,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "$"
     }
   },
+  countryCallingCode: {
+    root: "+1",
+    suffixes: [
+      "876"
+    ]
+  },
   capital: [
     "Kingston"
   ],
@@ -4715,6 +4979,12 @@ export const apiData: TCountryInfo[] = [
       name: "Barbadian dollar",
       symbol: "$"
     }
+  },
+  countryCallingCode: {
+    root: "+1",
+    suffixes: [
+      "246"
+    ]
   },
   capital: [
     "Bridgetown"
@@ -4829,6 +5099,13 @@ export const apiData: TCountryInfo[] = [
       symbol: "UM"
     }
   },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "125288",
+      "125289"
+    ]
+  },
   capital: [
     "El Aaiún"
   ],
@@ -4934,6 +5211,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "ر.ق"
     }
   },
+  countryCallingCode: {
+    root: "+9",
+    suffixes: [
+      "74"
+    ]
+  },
   capital: [
     "Doha"
   ],
@@ -5034,6 +5317,12 @@ export const apiData: TCountryInfo[] = [
       name: "Guatemalan quetzal",
       symbol: "Q"
     }
+  },
+  countryCallingCode: {
+    root: "+5",
+    suffixes: [
+      "02"
+    ]
   },
   capital: [
     "Guatemala City"
@@ -5139,6 +5428,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "$"
     }
   },
+  countryCallingCode: {
+    root: "+6",
+    suffixes: [
+      "91"
+    ]
+  },
   capital: [
     "Palikir"
   ],
@@ -5240,6 +5535,12 @@ export const apiData: TCountryInfo[] = [
       name: "Eastern Caribbean dollar",
       symbol: "$"
     }
+  },
+  countryCallingCode: {
+    root: "+1",
+    suffixes: [
+      "664"
+    ]
   },
   capital: [
     "Plymouth"
@@ -5346,6 +5647,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "K"
     }
   },
+  countryCallingCode: {
+    root: "+6",
+    suffixes: [
+      "75"
+    ]
+  },
   capital: [
     "Port Moresby"
   ],
@@ -5450,6 +5757,12 @@ export const apiData: TCountryInfo[] = [
       name: "Brazilian real",
       symbol: "R$"
     }
+  },
+  countryCallingCode: {
+    root: "+5",
+    suffixes: [
+      "5"
+    ]
   },
   capital: [
     "Brasília"
@@ -5567,6 +5880,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "€"
     }
   },
+  countryCallingCode: {
+    root: "+3",
+    suffixes: [
+      "70"
+    ]
+  },
   capital: [
     "Vilnius"
   ],
@@ -5673,6 +5992,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "€"
     }
   },
+  countryCallingCode: {
+    root: "+5",
+    suffixes: [
+      "94"
+    ]
+  },
   capital: [
     "Cayenne"
   ],
@@ -5774,6 +6099,12 @@ export const apiData: TCountryInfo[] = [
       name: "Moldovan leu",
       symbol: "L"
     }
+  },
+  countryCallingCode: {
+    root: "+3",
+    suffixes: [
+      "73"
+    ]
   },
   capital: [
     "Chișinău"
@@ -5883,6 +6214,12 @@ export const apiData: TCountryInfo[] = [
       name: "Kyrgyzstani som",
       symbol: "с"
     }
+  },
+  countryCallingCode: {
+    root: "+9",
+    suffixes: [
+      "96"
+    ]
   },
   capital: [
     "Bishkek"
@@ -6001,6 +6338,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "ƒ"
     }
   },
+  countryCallingCode: {
+    root: "+5",
+    suffixes: [
+      "99"
+    ]
+  },
   capital: [
     "Willemstad"
   ],
@@ -6104,6 +6447,12 @@ export const apiData: TCountryInfo[] = [
       name: "Vietnamese đồng",
       symbol: "₫"
     }
+  },
+  countryCallingCode: {
+    root: "+8",
+    suffixes: [
+      "4"
+    ]
   },
   capital: [
     "Hanoi"
@@ -6210,6 +6559,12 @@ export const apiData: TCountryInfo[] = [
       name: "Angolan kwanza",
       symbol: "Kz"
     }
+  },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "44"
+    ]
   },
   capital: [
     "Luanda"
@@ -6320,6 +6675,12 @@ export const apiData: TCountryInfo[] = [
       name: "Malaysian ringgit",
       symbol: "RM"
     }
+  },
+  countryCallingCode: {
+    root: "+6",
+    suffixes: [
+      "0"
+    ]
   },
   capital: [
     "Kuala Lumpur"
@@ -6437,6 +6798,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "Fr."
     }
   },
+  countryCallingCode: {
+    root: "+4",
+    suffixes: [
+      "1"
+    ]
+  },
   capital: [
     "Bern"
   ],
@@ -6551,6 +6918,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "฿"
     }
   },
+  countryCallingCode: {
+    root: "+6",
+    suffixes: [
+      "6"
+    ]
+  },
   capital: [
     "Bangkok"
   ],
@@ -6660,6 +7033,14 @@ export const apiData: TCountryInfo[] = [
       symbol: "$"
     }
   },
+  countryCallingCode: {
+    root: "+1",
+    suffixes: [
+      "809",
+      "829",
+      "849"
+    ]
+  },
   capital: [
     "Santo Domingo"
   ],
@@ -6764,6 +7145,12 @@ export const apiData: TCountryInfo[] = [
       name: "Uzbekistani soʻm",
       symbol: "so'm"
     }
+  },
+  countryCallingCode: {
+    root: "+9",
+    suffixes: [
+      "98"
+    ]
   },
   capital: [
     "Tashkent"
@@ -6878,6 +7265,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "Fr"
     }
   },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "35"
+    ]
+  },
   capital: [
     "N'Djamena"
   ],
@@ -6989,6 +7382,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "$"
     }
   },
+  countryCallingCode: {
+    root: "+6",
+    suffixes: [
+      "1"
+    ]
+  },
   capital: [
     "West Island"
   ],
@@ -7087,6 +7486,12 @@ export const apiData: TCountryInfo[] = [
       name: "Guinean franc",
       symbol: "Fr"
     }
+  },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "24"
+    ]
   },
   capital: [
     "Conakry"
@@ -7196,6 +7601,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "$"
     }
   },
+  countryCallingCode: {
+    root: "+1",
+    suffixes: [
+      "649"
+    ]
+  },
   capital: [
     "Cockburn Town"
   ],
@@ -7296,6 +7707,13 @@ export const apiData: TCountryInfo[] = [
       name: "United States dollar",
       symbol: "$"
     }
+  },
+  countryCallingCode: {
+    root: "+1",
+    suffixes: [
+      "787",
+      "939"
+    ]
   },
   capital: [
     "San Juan"
@@ -7401,6 +7819,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "₹"
     }
   },
+  countryCallingCode: {
+    root: "+9",
+    suffixes: [
+      "75"
+    ]
+  },
   capital: [
     "Thimphu"
   ],
@@ -7504,6 +7928,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "$"
     }
   },
+  countryCallingCode: {
+    root: "+1",
+    suffixes: [
+      "345"
+    ]
+  },
   capital: [
     "George Town"
   ],
@@ -7605,6 +8035,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "$"
     }
   },
+  countryCallingCode: {
+    root: "+6",
+    suffixes: [
+      "92"
+    ]
+  },
   capital: [
     "Majuro"
   ],
@@ -7705,6 +8141,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "$"
     }
   },
+  countryCallingCode: {
+    root: "+1",
+    suffixes: [
+      "264"
+    ]
+  },
   capital: [
     "The Valley"
   ],
@@ -7801,6 +8243,12 @@ export const apiData: TCountryInfo[] = [
       name: "Mauritanian ouguiya",
       symbol: "UM"
     }
+  },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "22"
+    ]
   },
   capital: [
     "Nouakchott"
@@ -7916,6 +8364,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "kr"
     }
   },
+  countryCallingCode: {
+    root: "+4",
+    suffixes: [
+      "7"
+    ]
+  },
   capital: [
     "Oslo"
   ],
@@ -8026,6 +8480,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "€"
     }
   },
+  countryCallingCode: {
+    root: "+5",
+    suffixes: [
+      "96"
+    ]
+  },
   capital: [
     "Fort-de-France"
   ],
@@ -8126,6 +8586,12 @@ export const apiData: TCountryInfo[] = [
       name: "Israeli new shekel",
       symbol: "₪"
     }
+  },
+  countryCallingCode: {
+    root: "+9",
+    suffixes: [
+      "72"
+    ]
   },
   capital: [
     "Jerusalem"
@@ -8235,6 +8701,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "€"
     }
   },
+  countryCallingCode: {
+    root: "+5",
+    suffixes: [
+      "90"
+    ]
+  },
   capital: [
     "Gustavia"
   ],
@@ -8334,6 +8806,12 @@ export const apiData: TCountryInfo[] = [
       name: "United States dollar",
       symbol: "$"
     }
+  },
+  countryCallingCode: {
+    root: "+5",
+    suffixes: [
+      "93"
+    ]
   },
   capital: [
     "Quito"
@@ -8440,6 +8918,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "$"
     }
   },
+  countryCallingCode: {
+    root: "+1",
+    suffixes: [
+      "473"
+    ]
+  },
   capital: [
     "St. George's"
   ],
@@ -8536,6 +9020,12 @@ export const apiData: TCountryInfo[] = [
       name: "Euro",
       symbol: "€"
     }
+  },
+  countryCallingCode: {
+    root: "+3",
+    suffixes: [
+      "85"
+    ]
   },
   capital: [
     "Zagreb"
@@ -8649,6 +9139,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "$"
     }
   },
+  countryCallingCode: {
+    root: "+6",
+    suffixes: [
+      "73"
+    ]
+  },
   capital: [
     "Bandar Seri Begawan"
   ],
@@ -8758,6 +9254,12 @@ export const apiData: TCountryInfo[] = [
       name: "Iraqi dinar",
       symbol: "ع.د"
     }
+  },
+  countryCallingCode: {
+    root: "+9",
+    suffixes: [
+      "64"
+    ]
   },
   capital: [
     "Baghdad"
@@ -8870,6 +9372,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "¥"
     }
   },
+  countryCallingCode: {
+    root: "+8",
+    suffixes: [
+      "1"
+    ]
+  },
   capital: [
     "Tokyo"
   ],
@@ -8978,6 +9486,12 @@ export const apiData: TCountryInfo[] = [
       name: "South African rand",
       symbol: "R"
     }
+  },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "66"
+    ]
   },
   capital: [
     "Maseru"
@@ -9091,6 +9605,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "$"
     }
   },
+  countryCallingCode: {
+    root: "+6",
+    suffixes: [
+      "88"
+    ]
+  },
   capital: [
     "Funafuti"
   ],
@@ -9186,6 +9706,10 @@ export const apiData: TCountryInfo[] = [
   independent: false,
   status: "officially-assigned",
   unMember: false,
+  countryCallingCode: {
+    root: "",
+    suffixes: []
+  },
   capital: [],
   altSpellings: [
     "HM",
@@ -9282,6 +9806,12 @@ export const apiData: TCountryInfo[] = [
       name: "Euro",
       symbol: "€"
     }
+  },
+  countryCallingCode: {
+    root: "+3",
+    suffixes: [
+      "58"
+    ]
   },
   capital: [
     "Helsinki"
@@ -9391,6 +9921,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "£"
     }
   },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "11"
+    ]
+  },
   capital: [
     "Juba"
   ],
@@ -9497,6 +10033,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "$"
     }
   },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "68"
+    ]
+  },
   capital: [
     "Washington DC"
   ],
@@ -9597,6 +10139,13 @@ export const apiData: TCountryInfo[] = [
       name: "Saint Helena pound",
       symbol: "£"
     }
+  },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "90",
+      "47"
+    ]
   },
   capital: [
     "Jamestown"
@@ -9703,6 +10252,12 @@ export const apiData: TCountryInfo[] = [
       name: "Afghan afghani",
       symbol: "؋"
     }
+  },
+  countryCallingCode: {
+    root: "+9",
+    suffixes: [
+      "3"
+    ]
   },
   capital: [
     "Kabul"
@@ -9811,6 +10366,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "$"
     }
   },
+  countryCallingCode: {
+    root: "+6",
+    suffixes: [
+      "77"
+    ]
+  },
   capital: [
     "Honiara"
   ],
@@ -9913,6 +10474,12 @@ export const apiData: TCountryInfo[] = [
       name: "Chinese yuan",
       symbol: "¥"
     }
+  },
+  countryCallingCode: {
+    root: "+8",
+    suffixes: [
+      "6"
+    ]
   },
   capital: [
     "Beijing"
@@ -10044,6 +10611,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "Nfk"
     }
   },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "91"
+    ]
+  },
   capital: [
     "Asmara"
   ],
@@ -10153,6 +10726,16 @@ export const apiData: TCountryInfo[] = [
       name: "Russian ruble",
       symbol: "₽"
     }
+  },
+  countryCallingCode: {
+    root: "+7",
+    suffixes: [
+      "3",
+      "4",
+      "5",
+      "8",
+      "9"
+    ]
   },
   capital: [
     "Moscow"
@@ -10279,6 +10862,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "€"
     }
   },
+  countryCallingCode: {
+    root: "+3",
+    suffixes: [
+      "76"
+    ]
+  },
   capital: [
     "Andorra la Vella"
   ],
@@ -10380,6 +10969,12 @@ export const apiData: TCountryInfo[] = [
       name: "Armenian dram",
       symbol: "֏"
     }
+  },
+  countryCallingCode: {
+    root: "+3",
+    suffixes: [
+      "74"
+    ]
   },
   capital: [
     "Yerevan"
@@ -10487,6 +11082,12 @@ export const apiData: TCountryInfo[] = [
       name: "Euro",
       symbol: "€"
     }
+  },
+  countryCallingCode: {
+    root: "+4",
+    suffixes: [
+      "3"
+    ]
   },
   capital: [
     "Vienna"
@@ -10598,6 +11199,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "$"
     }
   },
+  countryCallingCode: {
+    root: "+5",
+    suffixes: [
+      "97"
+    ]
+  },
   capital: [
     "Paramaribo"
   ],
@@ -10704,6 +11311,12 @@ export const apiData: TCountryInfo[] = [
       name: "Euro",
       symbol: "€"
     }
+  },
+  countryCallingCode: {
+    root: "+3",
+    suffixes: [
+      "4"
+    ]
   },
   capital: [
     "Madrid"
@@ -10824,6 +11437,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "$"
     }
   },
+  countryCallingCode: {
+    root: "+6",
+    suffixes: [
+      "90"
+    ]
+  },
   capital: [
     "Fakaofo"
   ],
@@ -10926,6 +11545,12 @@ export const apiData: TCountryInfo[] = [
       name: "United States dollar",
       symbol: "$"
     }
+  },
+  countryCallingCode: {
+    root: "+1",
+    suffixes: [
+      "242"
+    ]
   },
   capital: [
     "Nassau"
@@ -11032,6 +11657,12 @@ export const apiData: TCountryInfo[] = [
       name: "Netherlands Antillean guilder",
       symbol: "ƒ"
     }
+  },
+  countryCallingCode: {
+    root: "+1",
+    suffixes: [
+      "721"
+    ]
   },
   capital: [
     "Philipsburg"
@@ -11142,6 +11773,12 @@ export const apiData: TCountryInfo[] = [
       name: "Belize dollar",
       symbol: "$"
     }
+  },
+  countryCallingCode: {
+    root: "+5",
+    suffixes: [
+      "01"
+    ]
   },
   capital: [
     "Belmopan"
@@ -11259,6 +11896,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "£"
     }
   },
+  countryCallingCode: {
+    root: "+4",
+    suffixes: [
+      "4"
+    ]
+  },
   capital: [
     "Saint Helier"
   ],
@@ -11360,6 +12003,12 @@ export const apiData: TCountryInfo[] = [
       name: "Swedish krona",
       symbol: "kr"
     }
+  },
+  countryCallingCode: {
+    root: "+4",
+    suffixes: [
+      "6"
+    ]
   },
   capital: [
     "Stockholm"
@@ -11468,6 +12117,12 @@ export const apiData: TCountryInfo[] = [
       name: "Botswana pula",
       symbol: "P"
     }
+  },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "67"
+    ]
   },
   capital: [
     "Gaborone"
@@ -11584,6 +12239,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "£"
     }
   },
+  countryCallingCode: {
+    root: "+4",
+    suffixes: [
+      "4"
+    ]
+  },
   capital: [
     "Douglas"
   ],
@@ -11685,6 +12346,12 @@ export const apiData: TCountryInfo[] = [
       name: "United Arab Emirates dirham",
       symbol: "د.إ"
     }
+  },
+  countryCallingCode: {
+    root: "+9",
+    suffixes: [
+      "71"
+    ]
   },
   capital: [
     "Abu Dhabi"
@@ -11790,6 +12457,12 @@ export const apiData: TCountryInfo[] = [
       name: "Iranian rial",
       symbol: "﷼"
     }
+  },
+  countryCallingCode: {
+    root: "+9",
+    suffixes: [
+      "8"
+    ]
   },
   capital: [
     "Tehran"
@@ -11901,6 +12574,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "Fr"
     }
   },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "41"
+    ]
+  },
   capital: [
     "Libreville"
   ],
@@ -12005,6 +12684,12 @@ export const apiData: TCountryInfo[] = [
       name: "Eastern Caribbean dollar",
       symbol: "$"
     }
+  },
+  countryCallingCode: {
+    root: "+1",
+    suffixes: [
+      "869"
+    ]
   },
   capital: [
     "Basseterre"
@@ -12112,6 +12797,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "Fr"
     }
   },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "40"
+    ]
+  },
   capital: [
     "Malabo"
   ],
@@ -12218,6 +12909,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "Db"
     }
   },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "39"
+    ]
+  },
   capital: [
     "São Tomé"
   ],
@@ -12320,6 +13017,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "kr."
     }
   },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "99"
+    ]
+  },
   capital: [
     "Nuuk"
   ],
@@ -12420,6 +13123,12 @@ export const apiData: TCountryInfo[] = [
       name: "Bangladeshi taka",
       symbol: "৳"
     }
+  },
+  countryCallingCode: {
+    root: "+8",
+    suffixes: [
+      "80"
+    ]
   },
   capital: [
     "Dhaka"
@@ -12524,6 +13233,12 @@ export const apiData: TCountryInfo[] = [
       name: "Romanian leu",
       symbol: "lei"
     }
+  },
+  countryCallingCode: {
+    root: "+4",
+    suffixes: [
+      "0"
+    ]
   },
   capital: [
     "Bucharest"
@@ -12633,6 +13348,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "$"
     }
   },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "46"
+    ]
+  },
   capital: [
     "Diego Garcia"
   ],
@@ -12733,6 +13454,12 @@ export const apiData: TCountryInfo[] = [
       name: "Sudanese pound",
       symbol: ""
     }
+  },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "49"
+    ]
   },
   capital: [
     "Khartoum"
@@ -12852,6 +13579,12 @@ export const apiData: TCountryInfo[] = [
       symbol: ""
     }
   },
+  countryCallingCode: {
+    root: "+3",
+    suffixes: [
+      "87"
+    ]
+  },
   capital: [
     "Sarajevo"
   ],
@@ -12963,6 +13696,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "€"
     }
   },
+  countryCallingCode: {
+    root: "+3",
+    suffixes: [
+      "56"
+    ]
+  },
   capital: [
     "Valletta"
   ],
@@ -13072,6 +13811,12 @@ export const apiData: TCountryInfo[] = [
       name: "Seychellois rupee",
       symbol: "₨"
     }
+  },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "48"
+    ]
   },
   capital: [
     "Victoria"
@@ -13183,6 +13928,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "Rs  රු"
     }
   },
+  countryCallingCode: {
+    root: "+9",
+    suffixes: [
+      "4"
+    ]
+  },
   capital: [
     "Sri Jayawardenepura Kotte"
   ],
@@ -13286,6 +14037,12 @@ export const apiData: TCountryInfo[] = [
       name: "Mexican peso",
       symbol: "$"
     }
+  },
+  countryCallingCode: {
+    root: "+5",
+    suffixes: [
+      "2"
+    ]
   },
   capital: [
     "Mexico City"
@@ -13395,6 +14152,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "﷼"
     }
   },
+  countryCallingCode: {
+    root: "+9",
+    suffixes: [
+      "67"
+    ]
+  },
   capital: [
     "Sana'a"
   ],
@@ -13499,6 +14262,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "$"
     }
   },
+  countryCallingCode: {
+    root: "+1",
+    suffixes: [
+      "284"
+    ]
+  },
   capital: [
     "Road Town"
   ],
@@ -13596,6 +14365,12 @@ export const apiData: TCountryInfo[] = [
       name: "Euro",
       symbol: "€"
     }
+  },
+  countryCallingCode: {
+    root: "+3",
+    suffixes: [
+      "1"
+    ]
   },
   capital: [
     "Amsterdam"
@@ -13706,6 +14481,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "₲"
     }
   },
+  countryCallingCode: {
+    root: "+5",
+    suffixes: [
+      "95"
+    ]
+  },
   capital: [
     "Asunción"
   ],
@@ -13812,6 +14593,12 @@ export const apiData: TCountryInfo[] = [
       name: "British pound",
       symbol: "£"
     }
+  },
+  countryCallingCode: {
+    root: "+4",
+    suffixes: [
+      "4"
+    ]
   },
   capital: [
     "London"
@@ -13924,6 +14711,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "Bs.S."
     }
   },
+  countryCallingCode: {
+    root: "+5",
+    suffixes: [
+      "8"
+    ]
+  },
   capital: [
     "Caracas"
   ],
@@ -14024,6 +14817,12 @@ export const apiData: TCountryInfo[] = [
   independent: false,
   status: "officially-assigned",
   unMember: false,
+  countryCallingCode: {
+    root: "+4",
+    suffixes: [
+      "7"
+    ]
+  },
   capital: [],
   altSpellings: [
     "BV",
@@ -14108,6 +14907,12 @@ export const apiData: TCountryInfo[] = [
       name: "Ukrainian hryvnia",
       symbol: "₴"
     }
+  },
+  countryCallingCode: {
+    root: "+3",
+    suffixes: [
+      "80"
+    ]
   },
   capital: [
     "Kyiv"
@@ -14222,6 +15027,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "د.م."
     }
   },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "12"
+    ]
+  },
   capital: [
     "Rabat"
   ],
@@ -14327,6 +15138,12 @@ export const apiData: TCountryInfo[] = [
       name: "Euro",
       symbol: "€"
     }
+  },
+  countryCallingCode: {
+    root: "+3",
+    suffixes: [
+      "51"
+    ]
   },
   capital: [
     "Lisbon"
@@ -14437,6 +15254,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "₨"
     }
   },
+  countryCallingCode: {
+    root: "+9",
+    suffixes: [
+      "2"
+    ]
+  },
   capital: [
     "Islamabad"
   ],
@@ -14545,6 +15368,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "$"
     }
   },
+  countryCallingCode: {
+    root: "+1",
+    suffixes: [
+      "784"
+    ]
+  },
   capital: [
     "Kingstown"
   ],
@@ -14641,6 +15470,12 @@ export const apiData: TCountryInfo[] = [
       name: "North Korean won",
       symbol: "₩"
     }
+  },
+  countryCallingCode: {
+    root: "+8",
+    suffixes: [
+      "50"
+    ]
   },
   capital: [
     "Pyongyang"
@@ -14750,6 +15585,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "€"
     }
   },
+  countryCallingCode: {
+    root: "+3",
+    suffixes: [
+      "86"
+    ]
+  },
   capital: [
     "Ljubljana"
   ],
@@ -14855,6 +15696,12 @@ export const apiData: TCountryInfo[] = [
       name: "West African CFA franc",
       symbol: "Fr"
     }
+  },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "25"
+    ]
   },
   capital: [
     "Yamoussoukro"
@@ -14974,6 +15821,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "JD"
     }
   },
+  countryCallingCode: {
+    root: "+9",
+    suffixes: [
+      "70"
+    ]
+  },
   capital: [
     "Ramallah",
     "Jerusalem"
@@ -15086,6 +15939,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "$"
     }
   },
+  countryCallingCode: {
+    root: "+5",
+    suffixes: [
+      "99"
+    ]
+  },
   capital: [
     "Kralendijk"
   ],
@@ -15192,6 +16051,12 @@ export const apiData: TCountryInfo[] = [
       name: "Euro",
       symbol: "€"
     }
+  },
+  countryCallingCode: {
+    root: "+3",
+    suffixes: [
+      "2"
+    ]
   },
   capital: [
     "Brussels"
@@ -15363,6 +16228,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "$"
     }
   },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "63"
+    ]
+  },
   capital: [
     "Harare"
   ],
@@ -15486,6 +16357,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "Sh"
     }
   },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "55"
+    ]
+  },
   capital: [
     "Dodoma"
   ],
@@ -15597,6 +16474,12 @@ export const apiData: TCountryInfo[] = [
       name: "West African CFA franc",
       symbol: "Fr"
     }
+  },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "28"
+    ]
   },
   capital: [
     "Lomé"
@@ -15712,6 +16595,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "$"
     }
   },
+  countryCallingCode: {
+    root: "+6",
+    suffixes: [
+      "82"
+    ]
+  },
   capital: [
     "Avarua"
   ],
@@ -15811,6 +16700,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "€"
     }
   },
+  countryCallingCode: {
+    root: "+5",
+    suffixes: [
+      "90"
+    ]
+  },
   capital: [
     "Basse-Terre"
   ],
@@ -15909,6 +16804,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "₣"
     }
   },
+  countryCallingCode: {
+    root: "+6",
+    suffixes: [
+      "87"
+    ]
+  },
   capital: [
     "Nouméa"
   ],
@@ -16005,6 +16906,12 @@ export const apiData: TCountryInfo[] = [
       name: "Eastern Caribbean dollar",
       symbol: "$"
     }
+  },
+  countryCallingCode: {
+    root: "+1",
+    suffixes: [
+      "758"
+    ]
   },
   capital: [
     "Castries"
@@ -16105,6 +17012,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "£"
     }
   },
+  countryCallingCode: {
+    root: "+5",
+    suffixes: [
+      "00"
+    ]
+  },
   capital: [
     "King Edward Point"
   ],
@@ -16202,6 +17115,12 @@ export const apiData: TCountryInfo[] = [
       name: "Polish złoty",
       symbol: "zł"
     }
+  },
+  countryCallingCode: {
+    root: "+4",
+    suffixes: [
+      "8"
+    ]
   },
   capital: [
     "Warsaw"
@@ -16316,6 +17235,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "T"
     }
   },
+  countryCallingCode: {
+    root: "+6",
+    suffixes: [
+      "85"
+    ]
+  },
   capital: [
     "Apia"
   ],
@@ -16421,6 +17346,12 @@ export const apiData: TCountryInfo[] = [
       name: "Czech koruna",
       symbol: "Kč"
     }
+  },
+  countryCallingCode: {
+    root: "+4",
+    suffixes: [
+      "20"
+    ]
   },
   capital: [
     "Prague"
@@ -16528,6 +17459,12 @@ export const apiData: TCountryInfo[] = [
       name: "Indonesian rupiah",
       symbol: "Rp"
     }
+  },
+  countryCallingCode: {
+    root: "+6",
+    suffixes: [
+      "2"
+    ]
   },
   capital: [
     "Jakarta"
@@ -16648,6 +17585,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "Bs."
     }
   },
+  countryCallingCode: {
+    root: "+5",
+    suffixes: [
+      "91"
+    ]
+  },
   capital: [
     "Sucre"
   ],
@@ -16764,6 +17707,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "$"
     }
   },
+  countryCallingCode: {
+    root: "+5",
+    suffixes: [
+      "7"
+    ]
+  },
   capital: [
     "Bogotá"
   ],
@@ -16871,6 +17820,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "L"
     }
   },
+  countryCallingCode: {
+    root: "+5",
+    suffixes: [
+      "04"
+    ]
+  },
   capital: [
     "Tegucigalpa"
   ],
@@ -16975,6 +17930,12 @@ export const apiData: TCountryInfo[] = [
       name: "Danish krone",
       symbol: "kr"
     }
+  },
+  countryCallingCode: {
+    root: "+4",
+    suffixes: [
+      "5"
+    ]
   },
   capital: [
     "Copenhagen"
@@ -17088,6 +18049,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "Fr"
     }
   },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "36"
+    ]
+  },
   capital: [
     "Bangui"
   ],
@@ -17196,6 +18163,12 @@ export const apiData: TCountryInfo[] = [
       name: "Libyan dinar",
       symbol: "ل.د"
     }
+  },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "18"
+    ]
   },
   capital: [
     "Tripoli"
@@ -17307,6 +18280,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "Fr"
     }
   },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "45"
+    ]
+  },
   capital: [
     "Bissau"
   ],
@@ -17411,6 +18390,12 @@ export const apiData: TCountryInfo[] = [
       name: "Mongolian tögrög",
       symbol: "₮"
     }
+  },
+  countryCallingCode: {
+    root: "+9",
+    suffixes: [
+      "76"
+    ]
   },
   capital: [
     "Ulan Bator"
@@ -17531,6 +18516,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "FC"
     }
   },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "43"
+    ]
+  },
   capital: [
     "Kinshasa"
   ],
@@ -17649,6 +18640,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "£"
     }
   },
+  countryCallingCode: {
+    root: "+5",
+    suffixes: [
+      "00"
+    ]
+  },
   capital: [
     "Stanley"
   ],
@@ -17751,6 +18748,12 @@ export const apiData: TCountryInfo[] = [
       name: "Australian dollar",
       symbol: "$"
     }
+  },
+  countryCallingCode: {
+    root: "+6",
+    suffixes: [
+      "74"
+    ]
   },
   capital: [
     "Yaren"
@@ -17856,6 +18859,12 @@ export const apiData: TCountryInfo[] = [
       name: "Syrian pound",
       symbol: "£"
     }
+  },
+  countryCallingCode: {
+    root: "+9",
+    suffixes: [
+      "63"
+    ]
   },
   capital: [
     "Damascus"
@@ -17964,6 +18973,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "€"
     }
   },
+  countryCallingCode: {
+    root: "+3",
+    suffixes: [
+      "82"
+    ]
+  },
   capital: [
     "Podgorica"
   ],
@@ -18069,6 +19084,12 @@ export const apiData: TCountryInfo[] = [
       name: "Euro",
       symbol: "€"
     }
+  },
+  countryCallingCode: {
+    root: "+3",
+    suffixes: [
+      "3"
+    ]
   },
   capital: [
     "Paris"
@@ -18193,6 +19214,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "ZK"
     }
   },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "60"
+    ]
+  },
   capital: [
     "Lusaka"
   ],
@@ -18302,6 +19329,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "Ks"
     }
   },
+  countryCallingCode: {
+    root: "+9",
+    suffixes: [
+      "5"
+    ]
+  },
   capital: [
     "Naypyidaw"
   ],
@@ -18410,6 +19443,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "€"
     }
   },
+  countryCallingCode: {
+    root: "+5",
+    suffixes: [
+      "08"
+    ]
+  },
   capital: [
     "Saint-Pierre"
   ],
@@ -18507,6 +19546,12 @@ export const apiData: TCountryInfo[] = [
       name: "Costa Rican colón",
       symbol: "₡"
     }
+  },
+  countryCallingCode: {
+    root: "+5",
+    suffixes: [
+      "06"
+    ]
   },
   capital: [
     "San José"
@@ -18615,6 +19660,12 @@ export const apiData: TCountryInfo[] = [
       name: "Somali shilling",
       symbol: "Sh"
     }
+  },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "52"
+    ]
   },
   capital: [
     "Mogadishu"
@@ -18728,6 +19779,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "€"
     }
   },
+  countryCallingCode: {
+    root: "+3",
+    suffixes: [
+      "53"
+    ]
+  },
   capital: [
     "Dublin"
   ],
@@ -18833,6 +19890,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "₣"
     }
   },
+  countryCallingCode: {
+    root: "+6",
+    suffixes: [
+      "89"
+    ]
+  },
   capital: [
     "Papeetē"
   ],
@@ -18935,6 +19998,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "$"
     }
   },
+  countryCallingCode: {
+    root: "+6",
+    suffixes: [
+      "4"
+    ]
+  },
   capital: [
     "Adamstown"
   ],
@@ -19033,6 +20102,12 @@ export const apiData: TCountryInfo[] = [
       name: "Hungarian forint",
       symbol: "Ft"
     }
+  },
+  countryCallingCode: {
+    root: "+3",
+    suffixes: [
+      "6"
+    ]
   },
   capital: [
     "Budapest"
@@ -19140,6 +20215,12 @@ export const apiData: TCountryInfo[] = [
       name: "Turkish lira",
       symbol: "₺"
     }
+  },
+  countryCallingCode: {
+    root: "+9",
+    suffixes: [
+      "0"
+    ]
   },
   capital: [
     "Ankara"
@@ -19253,6 +20334,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "ر.ع."
     }
   },
+  countryCallingCode: {
+    root: "+9",
+    suffixes: [
+      "68"
+    ]
+  },
   capital: [
     "Muscat"
   ],
@@ -19364,6 +20451,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "$"
     }
   },
+  countryCallingCode: {
+    root: "+1",
+    suffixes: [
+      "671"
+    ]
+  },
   capital: [
     "Hagåtña"
   ],
@@ -19463,6 +20556,12 @@ export const apiData: TCountryInfo[] = [
       name: "Nepalese rupee",
       symbol: "₨"
     }
+  },
+  countryCallingCode: {
+    root: "+9",
+    suffixes: [
+      "77"
+    ]
   },
   capital: [
     "Kathmandu"
@@ -19567,6 +20666,12 @@ export const apiData: TCountryInfo[] = [
       name: "Swiss franc",
       symbol: "Fr"
     }
+  },
+  countryCallingCode: {
+    root: "+4",
+    suffixes: [
+      "23"
+    ]
   },
   capital: [
     "Vaduz"
@@ -19673,6 +20778,12 @@ export const apiData: TCountryInfo[] = [
       name: "Malagasy ariary",
       symbol: "Ar"
     }
+  },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "61"
+    ]
   },
   capital: [
     "Antananarivo"
@@ -19781,6 +20892,13 @@ export const apiData: TCountryInfo[] = [
       name: "Kazakhstani tenge",
       symbol: "₸"
     }
+  },
+  countryCallingCode: {
+    root: "+7",
+    suffixes: [
+      "6",
+      "7"
+    ]
   },
   capital: [
     "Nur-Sultan"
@@ -19900,6 +21018,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "Fr"
     }
   },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "53"
+    ]
+  },
   capital: [
     "Djibouti"
   ],
@@ -20009,6 +21133,12 @@ export const apiData: TCountryInfo[] = [
       name: "Gibraltar pound",
       symbol: "£"
     }
+  },
+  countryCallingCode: {
+    root: "+3",
+    suffixes: [
+      "50"
+    ]
   },
   capital: [
     "Gibraltar"
@@ -20120,6 +21250,12 @@ export const apiData: TCountryInfo[] = [
       name: "Guernsey pound",
       symbol: "£"
     }
+  },
+  countryCallingCode: {
+    root: "+4",
+    suffixes: [
+      "4"
+    ]
   },
   capital: [
     "St. Peter Port"
@@ -20258,6 +21394,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "R"
     }
   },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "64"
+    ]
+  },
   capital: [
     "Windhoek"
   ],
@@ -20380,6 +21522,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "Fr"
     }
   },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "42"
+    ]
+  },
   capital: [
     "Brazzaville"
   ],
@@ -20488,6 +21636,12 @@ export const apiData: TCountryInfo[] = [
       name: "Euro",
       symbol: "€"
     }
+  },
+  countryCallingCode: {
+    root: "+4",
+    suffixes: [
+      "9"
+    ]
   },
   capital: [
     "Berlin"
@@ -20604,6 +21758,13 @@ export const apiData: TCountryInfo[] = [
       symbol: "€"
     }
   },
+  countryCallingCode: {
+    root: "+3",
+    suffixes: [
+      "906698",
+      "79"
+    ]
+  },
   capital: [
     "Vatican City"
   ],
@@ -20707,6 +21868,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "€"
     }
   },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "62"
+    ]
+  },
   capital: [
     "Port-aux-Français"
   ],
@@ -20804,6 +21971,12 @@ export const apiData: TCountryInfo[] = [
       name: "Albanian lek",
       symbol: "L"
     }
+  },
+  countryCallingCode: {
+    root: "+3",
+    suffixes: [
+      "55"
+    ]
   },
   capital: [
     "Tirana"
@@ -20912,6 +22085,12 @@ export const apiData: TCountryInfo[] = [
       name: "Algerian dinar",
       symbol: "د.ج"
     }
+  },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "13"
+    ]
   },
   capital: [
     "Algiers"
@@ -21022,6 +22201,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "€"
     }
   },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "62"
+    ]
+  },
   capital: [
     "Mamoudzou"
   ],
@@ -21124,6 +22309,12 @@ export const apiData: TCountryInfo[] = [
       name: "Haitian gourde",
       symbol: "G"
     }
+  },
+  countryCallingCode: {
+    root: "+5",
+    suffixes: [
+      "09"
+    ]
   },
   capital: [
     "Port-au-Prince"
@@ -21230,6 +22421,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "kr"
     }
   },
+  countryCallingCode: {
+    root: "+4",
+    suffixes: [
+      "779"
+    ]
+  },
   capital: [
     "Longyearbyen"
   ],
@@ -21331,6 +22528,12 @@ export const apiData: TCountryInfo[] = [
       name: "Tongan paʻanga",
       symbol: "T$"
     }
+  },
+  countryCallingCode: {
+    root: "+6",
+    suffixes: [
+      "76"
+    ]
   },
   capital: [
     "Nuku'alofa"
@@ -21436,6 +22639,12 @@ export const apiData: TCountryInfo[] = [
       name: "Hong Kong dollar",
       symbol: "$"
     }
+  },
+  countryCallingCode: {
+    root: "+8",
+    suffixes: [
+      "52"
+    ]
   },
   capital: [
     "City of Victoria"
@@ -21551,6 +22760,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "$"
     }
   },
+  countryCallingCode: {
+    root: "+6",
+    suffixes: [
+      "5"
+    ]
+  },
   capital: [
     "Singapore"
   ],
@@ -21654,6 +22869,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "$"
     }
   },
+  countryCallingCode: {
+    root: "+1",
+    suffixes: [
+      "268"
+    ]
+  },
   capital: [
     "Saint John's"
   ],
@@ -21751,6 +22972,12 @@ export const apiData: TCountryInfo[] = [
       name: "Saudi riyal",
       symbol: "ر.س"
     }
+  },
+  countryCallingCode: {
+    root: "+9",
+    suffixes: [
+      "66"
+    ]
   },
   capital: [
     "Riyadh"
@@ -21864,6 +23091,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "$"
     }
   },
+  countryCallingCode: {
+    root: "+5",
+    suffixes: [
+      "3"
+    ]
+  },
   capital: [
     "Havana"
   ],
@@ -21966,6 +23199,12 @@ export const apiData: TCountryInfo[] = [
       name: "United States dollar",
       symbol: "$"
     }
+  },
+  countryCallingCode: {
+    root: "+5",
+    suffixes: [
+      "07"
+    ]
   },
   capital: [
     "Panama City"
@@ -22071,6 +23310,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "$"
     }
   },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "31"
+    ]
+  },
   capital: [
     "Monrovia"
   ],
@@ -22174,6 +23419,12 @@ export const apiData: TCountryInfo[] = [
       name: "Azerbaijani manat",
       symbol: "₼"
     }
+  },
+  countryCallingCode: {
+    root: "+9",
+    suffixes: [
+      "94"
+    ]
   },
   capital: [
     "Baku"
@@ -22283,6 +23534,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "€"
     }
   },
+  countryCallingCode: {
+    root: "+3",
+    suffixes: [
+      "71"
+    ]
+  },
   capital: [
     "Riga"
   ],
@@ -22377,6 +23634,10 @@ export const apiData: TCountryInfo[] = [
   independent: false,
   status: "officially-assigned",
   unMember: false,
+  countryCallingCode: {
+    root: "",
+    suffixes: []
+  },
   capital: [],
   altSpellings: [
     "AQ"
@@ -22481,6 +23742,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "$"
     }
   },
+  countryCallingCode: {
+    root: "+6",
+    suffixes: [
+      "86"
+    ]
+  },
   capital: [
     "South Tarawa"
   ],
@@ -22584,6 +23851,12 @@ export const apiData: TCountryInfo[] = [
       name: "Ethiopian birr",
       symbol: "Br"
     }
+  },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "51"
+    ]
   },
   capital: [
     "Addis Ababa"
@@ -22694,6 +23967,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "Fr"
     }
   },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "27"
+    ]
+  },
   capital: [
     "Niamey"
   ],
@@ -22802,6 +24081,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "$"
     }
   },
+  countryCallingCode: {
+    root: "+1",
+    suffixes: [
+      "868"
+    ]
+  },
   capital: [
     "Port of Spain"
   ],
@@ -22901,6 +24186,12 @@ export const apiData: TCountryInfo[] = [
       name: "Sierra Leonean leone",
       symbol: "Le"
     }
+  },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "32"
+    ]
   },
   capital: [
     "Freetown"
@@ -23004,6 +24295,12 @@ export const apiData: TCountryInfo[] = [
       name: "Mozambican metical",
       symbol: "MT"
     }
+  },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "58"
+    ]
   },
   capital: [
     "Maputo"
@@ -23117,6 +24414,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "$"
     }
   },
+  countryCallingCode: {
+    root: "+6",
+    suffixes: [
+      "80"
+    ]
+  },
   capital: [
     "Ngerulmud"
   ],
@@ -23225,6 +24528,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "$"
     }
   },
+  countryCallingCode: {
+    root: "+6",
+    suffixes: [
+      "79"
+    ]
+  },
   capital: [
     "Suva"
   ],
@@ -23330,6 +24639,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "€"
     }
   },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "62"
+    ]
+  },
   capital: [
     "Saint-Denis"
   ],
@@ -23431,6 +24746,12 @@ export const apiData: TCountryInfo[] = [
       name: "Australian dollar",
       symbol: "$"
     }
+  },
+  countryCallingCode: {
+    root: "+6",
+    suffixes: [
+      "72"
+    ]
   },
   capital: [
     "Kingston"
@@ -23535,6 +24856,12 @@ export const apiData: TCountryInfo[] = [
       name: "Turkmenistan manat",
       symbol: "m"
     }
+  },
+  countryCallingCode: {
+    root: "+9",
+    suffixes: [
+      "93"
+    ]
   },
   capital: [
     "Ashgabat"
@@ -23644,6 +24971,12 @@ export const apiData: TCountryInfo[] = [
       name: "Tajikistani somoni",
       symbol: "ЅМ"
     }
+  },
+  countryCallingCode: {
+    root: "+9",
+    suffixes: [
+      "92"
+    ]
   },
   capital: [
     "Dushanbe"
@@ -23758,6 +25091,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "ل.ل"
     }
   },
+  countryCallingCode: {
+    root: "+9",
+    suffixes: [
+      "61"
+    ]
+  },
   capital: [
     "Beirut"
   ],
@@ -23862,6 +25201,12 @@ export const apiData: TCountryInfo[] = [
       name: "Nigerian naira",
       symbol: "₦"
     }
+  },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "34"
+    ]
   },
   capital: [
     "Abuja"
@@ -23969,6 +25314,328 @@ export const apiData: TCountryInfo[] = [
       name: "United States dollar",
       symbol: "$"
     }
+  },
+  countryCallingCode: {
+    root: "+1",
+    suffixes: [
+      "201",
+      "202",
+      "203",
+      "205",
+      "206",
+      "207",
+      "208",
+      "209",
+      "210",
+      "212",
+      "213",
+      "214",
+      "215",
+      "216",
+      "217",
+      "218",
+      "219",
+      "220",
+      "224",
+      "225",
+      "227",
+      "228",
+      "229",
+      "231",
+      "234",
+      "239",
+      "240",
+      "248",
+      "251",
+      "252",
+      "253",
+      "254",
+      "256",
+      "260",
+      "262",
+      "267",
+      "269",
+      "270",
+      "272",
+      "274",
+      "276",
+      "281",
+      "283",
+      "301",
+      "302",
+      "303",
+      "304",
+      "305",
+      "307",
+      "308",
+      "309",
+      "310",
+      "312",
+      "313",
+      "314",
+      "315",
+      "316",
+      "317",
+      "318",
+      "319",
+      "320",
+      "321",
+      "323",
+      "325",
+      "327",
+      "330",
+      "331",
+      "334",
+      "336",
+      "337",
+      "339",
+      "346",
+      "347",
+      "351",
+      "352",
+      "360",
+      "361",
+      "364",
+      "380",
+      "385",
+      "386",
+      "401",
+      "402",
+      "404",
+      "405",
+      "406",
+      "407",
+      "408",
+      "409",
+      "410",
+      "412",
+      "413",
+      "414",
+      "415",
+      "417",
+      "419",
+      "423",
+      "424",
+      "425",
+      "430",
+      "432",
+      "434",
+      "435",
+      "440",
+      "442",
+      "443",
+      "447",
+      "458",
+      "463",
+      "464",
+      "469",
+      "470",
+      "475",
+      "478",
+      "479",
+      "480",
+      "484",
+      "501",
+      "502",
+      "503",
+      "504",
+      "505",
+      "507",
+      "508",
+      "509",
+      "510",
+      "512",
+      "513",
+      "515",
+      "516",
+      "517",
+      "518",
+      "520",
+      "530",
+      "531",
+      "534",
+      "539",
+      "540",
+      "541",
+      "551",
+      "559",
+      "561",
+      "562",
+      "563",
+      "564",
+      "567",
+      "570",
+      "571",
+      "573",
+      "574",
+      "575",
+      "580",
+      "585",
+      "586",
+      "601",
+      "602",
+      "603",
+      "605",
+      "606",
+      "607",
+      "608",
+      "609",
+      "610",
+      "612",
+      "614",
+      "615",
+      "616",
+      "617",
+      "618",
+      "619",
+      "620",
+      "623",
+      "626",
+      "628",
+      "629",
+      "630",
+      "631",
+      "636",
+      "641",
+      "646",
+      "650",
+      "651",
+      "657",
+      "660",
+      "661",
+      "662",
+      "667",
+      "669",
+      "678",
+      "681",
+      "682",
+      "701",
+      "702",
+      "703",
+      "704",
+      "706",
+      "707",
+      "708",
+      "712",
+      "713",
+      "714",
+      "715",
+      "716",
+      "717",
+      "718",
+      "719",
+      "720",
+      "724",
+      "725",
+      "727",
+      "730",
+      "731",
+      "732",
+      "734",
+      "737",
+      "740",
+      "743",
+      "747",
+      "754",
+      "757",
+      "760",
+      "762",
+      "763",
+      "765",
+      "769",
+      "770",
+      "772",
+      "773",
+      "774",
+      "775",
+      "779",
+      "781",
+      "785",
+      "786",
+      "801",
+      "802",
+      "803",
+      "804",
+      "805",
+      "806",
+      "808",
+      "810",
+      "812",
+      "813",
+      "814",
+      "815",
+      "816",
+      "817",
+      "818",
+      "828",
+      "830",
+      "831",
+      "832",
+      "843",
+      "845",
+      "847",
+      "848",
+      "850",
+      "854",
+      "856",
+      "857",
+      "858",
+      "859",
+      "860",
+      "862",
+      "863",
+      "864",
+      "865",
+      "870",
+      "872",
+      "878",
+      "901",
+      "903",
+      "904",
+      "906",
+      "907",
+      "908",
+      "909",
+      "910",
+      "912",
+      "913",
+      "914",
+      "915",
+      "916",
+      "917",
+      "918",
+      "919",
+      "920",
+      "925",
+      "928",
+      "929",
+      "930",
+      "931",
+      "934",
+      "936",
+      "937",
+      "938",
+      "940",
+      "941",
+      "947",
+      "949",
+      "951",
+      "952",
+      "954",
+      "956",
+      "959",
+      "970",
+      "971",
+      "972",
+      "973",
+      "975",
+      "978",
+      "979",
+      "980",
+      "984",
+      "985",
+      "989"
+    ]
   },
   capital: [
     "Washington, D.C."
@@ -24088,6 +25755,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "$"
     }
   },
+  countryCallingCode: {
+    root: "+5",
+    suffixes: [
+      "4"
+    ]
+  },
   capital: [
     "Buenos Aires"
   ],
@@ -24196,6 +25869,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "Fr"
     }
   },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "26"
+    ]
+  },
   capital: [
     "Ouagadougou"
   ],
@@ -24302,6 +25981,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "$"
     }
   },
+  countryCallingCode: {
+    root: "+6",
+    suffixes: [
+      "1"
+    ]
+  },
   capital: [
     "Flying Fish Cove"
   ],
@@ -24399,6 +26084,12 @@ export const apiData: TCountryInfo[] = [
       name: "Bermudian dollar",
       symbol: "$"
     }
+  },
+  countryCallingCode: {
+    root: "+1",
+    suffixes: [
+      "441"
+    ]
   },
   capital: [
     "Hamilton"
@@ -24499,6 +26190,12 @@ export const apiData: TCountryInfo[] = [
       name: "Nicaraguan córdoba",
       symbol: "C$"
     }
+  },
+  countryCallingCode: {
+    root: "+5",
+    suffixes: [
+      "05"
+    ]
   },
   capital: [
     "Managua"
@@ -24612,6 +26309,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "R"
     }
   },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "68"
+    ]
+  },
   capital: [
     "Mbabane"
   ],
@@ -24721,6 +26424,12 @@ export const apiData: TCountryInfo[] = [
       symbol: ".د.ب"
     }
   },
+  countryCallingCode: {
+    root: "+9",
+    suffixes: [
+      "73"
+    ]
+  },
   capital: [
     "Manama"
   ],
@@ -24823,6 +26532,12 @@ export const apiData: TCountryInfo[] = [
       name: "Kenyan shilling",
       symbol: "Sh"
     }
+  },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "54"
+    ]
   },
   capital: [
     "Nairobi"
@@ -24932,6 +26647,12 @@ export const apiData: TCountryInfo[] = [
       name: "Serbian dinar",
       symbol: "дин."
     }
+  },
+  countryCallingCode: {
+    root: "+3",
+    suffixes: [
+      "81"
+    ]
   },
   capital: [
     "Belgrade"
@@ -25049,6 +26770,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "$"
     }
   },
+  countryCallingCode: {
+    root: "+6",
+    suffixes: [
+      "70"
+    ]
+  },
   capital: [
     "Dili"
   ],
@@ -25156,6 +26883,12 @@ export const apiData: TCountryInfo[] = [
       name: "Eastern Caribbean dollar",
       symbol: "$"
     }
+  },
+  countryCallingCode: {
+    root: "+1",
+    suffixes: [
+      "767"
+    ]
   },
   capital: [
     "Roseau"
@@ -25265,6 +26998,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "$"
     }
   },
+  countryCallingCode: {
+    root: "+1",
+    suffixes: [
+      "670"
+    ]
+  },
   capital: [
     "Saipan"
   ],
@@ -25370,6 +27109,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "₱"
     }
   },
+  countryCallingCode: {
+    root: "+6",
+    suffixes: [
+      "3"
+    ]
+  },
   capital: [
     "Manila"
   ],
@@ -25473,6 +27218,12 @@ export const apiData: TCountryInfo[] = [
       name: "Euro",
       symbol: "€"
     }
+  },
+  countryCallingCode: {
+    root: "+3",
+    suffixes: [
+      "83"
+    ]
   },
   capital: [
     "Pristina"
@@ -25580,6 +27331,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "د.ك"
     }
   },
+  countryCallingCode: {
+    root: "+9",
+    suffixes: [
+      "65"
+    ]
+  },
   capital: [
     "Kuwait City"
   ],
@@ -25683,6 +27440,12 @@ export const apiData: TCountryInfo[] = [
       name: "New Taiwan dollar",
       symbol: "$"
     }
+  },
+  countryCallingCode: {
+    root: "+8",
+    suffixes: [
+      "86"
+    ]
   },
   capital: [
     "Taipei"
@@ -25789,6 +27552,12 @@ export const apiData: TCountryInfo[] = [
       name: "Burundian franc",
       symbol: "Fr"
     }
+  },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "57"
+    ]
   },
   capital: [
     "Gitega"
@@ -25901,6 +27670,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "$"
     }
   },
+  countryCallingCode: {
+    root: "+1",
+    suffixes: [
+      "684"
+    ]
+  },
   capital: [
     "Pago Pago"
   ],
@@ -26001,6 +27776,12 @@ export const apiData: TCountryInfo[] = [
       name: "Bulgarian lev",
       symbol: "лв"
     }
+  },
+  countryCallingCode: {
+    root: "+3",
+    suffixes: [
+      "59"
+    ]
   },
   capital: [
     "Sofia"
@@ -26149,6 +27930,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "R"
     }
   },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "7"
+    ]
+  },
   capital: [
     "Pretoria",
     "Bloemfontein",
@@ -26278,6 +28065,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "S/ "
     }
   },
+  countryCallingCode: {
+    root: "+5",
+    suffixes: [
+      "1"
+    ]
+  },
   capital: [
     "Lima"
   ],
@@ -26391,6 +28184,12 @@ export const apiData: TCountryInfo[] = [
       symbol: "ƒ"
     }
   },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "97"
+    ]
+  },
   capital: [
     "Oranjestad"
   ],
@@ -26486,6 +28285,12 @@ export const apiData: TCountryInfo[] = [
       name: "Ghanaian cedi",
       symbol: "₵"
     }
+  },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "33"
+    ]
   },
   capital: [
     "Accra"
@@ -26590,6 +28395,12 @@ export const apiData: TCountryInfo[] = [
       name: "Euro",
       symbol: "€"
     }
+  },
+  countryCallingCode: {
+    root: "+5",
+    suffixes: [
+      "90"
+    ]
   },
   capital: [
     "Marigot"
@@ -26700,6 +28511,12 @@ export const apiData: TCountryInfo[] = [
       name: "Indian rupee",
       symbol: "₹"
     }
+  },
+  countryCallingCode: {
+    root: "+9",
+    suffixes: [
+      "1"
+    ]
   },
   capital: [
     "New Delhi"
@@ -26816,6 +28633,12 @@ export const apiData: TCountryInfo[] = [
       name: "Ugandan shilling",
       symbol: "Sh"
     }
+  },
+  countryCallingCode: {
+    root: "+2",
+    suffixes: [
+      "56"
+    ]
   },
   capital: [
     "Kampala"
