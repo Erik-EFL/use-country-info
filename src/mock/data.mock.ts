@@ -637,3 +637,162 @@ export const MockCountryFlags: TCountryFlags[] = [
     },
   },
 ];
+
+export const MockRegionCountries = [
+
+  'Iceland', 'Luxembourg', 'Estonia', 'Belarus', 'Greece', 'Åland Islands', 'San Marino', 'Italy',
+
+  'Monaco', 'Slovakia', 'Faroe Islands', 'North Macedonia', 'Cyprus', 'Lithuania', 'Moldova', 'Switzerland',
+
+  'Norway', 'Croatia', 'Finland', 'Russia', 'Andorra', 'Austria', 'Spain', 'Jersey', 'Sweden',
+
+  'Isle of Man', 'Romania', 'Bosnia and Herzegovina', 'Malta', 'Netherlands', 'United Kingdom',
+
+  'Ukraine', 'Portugal', 'Slovenia', 'Belgium', 'Poland', 'Czechia', 'Denmark', 'Montenegro', 'France',
+
+  'Ireland', 'Hungary', 'Liechtenstein', 'Gibraltar', 'Guernsey', 'Germany', 'Vatican City', 'Albania',
+
+  'Svalbard and Jan Mayen', 'Latvia', 'Serbia', 'Kosovo', 'Bulgaria'
+]
+
+export const MockSubRegionCountries = [
+
+  'Luxembourg', 'Monaco', 'Switzerland', 'Netherlands', 'Belgium', 'France', 'Liechtenstein', 'Germany'
+
+]
+
+export const MockLanguageCountries = [
+
+  'Uruguay', 'Chile', 'El Salvador', 'Western Sahara', 'Guatemala', 'Dominican Republic', 'Puerto Rico',
+
+  'Ecuador', 'Spain', 'Belize', 'Equatorial Guinea', 'Mexico', 'Paraguay', 'Venezuela', 'Bolivia',
+
+  'Colombia', 'Honduras', 'Costa Rica', 'Guam', 'Cuba', 'Panama', 'Argentina', 'Nicaragua', 'Peru'
+
+]
+
+export const MockBorderCountries = [ 'Belgium', 'France', 'Germany' ]
+
+export const MockCurrencyCountries = [
+
+  'Cambodia', 'United States Virgin Islands', 'El Salvador', 'Micronesia', 'Turks and Caicos Islands',
+
+  'Puerto Rico', 'Marshall Islands', 'Ecuador', 'United States Minor Outlying Islands', 'Bahamas',
+
+  'British Indian Ocean Territory', 'British Virgin Islands', 'Caribbean Netherlands', 'Guam',
+
+  'Panama', 'Palau', 'United States', 'Timor-Leste', 'Northern Mariana Islands', 'American Samoa'
+
+]
+
+export const MockCallingCodeCountrie = {
+
+  name: {
+
+    common: 'Brazil',
+
+    official: 'Federative Republic of Brazil',
+
+    nativeName: { por: { official: 'República Federativa do Brasil', common: 'Brasil' } }
+
+  },
+
+  tld: [ '.br' ],
+
+  cca2: 'BR',
+
+  ccn3: '076',
+
+  cca3: 'BRA',
+
+  cioc: 'BRA',
+
+  independent: true,
+
+  status: 'officially-assigned',
+
+  unMember: true,
+
+  currencies: { BRL: { name: 'Brazilian real', symbol: 'R$' } },
+
+  countryCallingCode: { root: '+5', suffixes: [ '5' ] },
+
+  capital: [ 'Brasília' ],
+
+  altSpellings: [ 'BR', 'Brasil', 'Federative Republic of Brazil', 'República Federativa do Brasil' ],
+
+  region: 'Americas',
+
+  subregion: 'South America',
+
+  languages: { por: 'Portuguese' },
+
+  latlng: [ -10, -55 ],
+
+  landlocked: false,
+
+  borders: [ 'ARG', 'BOL', 'COL', 'GUF', 'GUY', 'PRY', 'PER', 'SUR', 'URY', 'VEN' ],
+
+  area: 8515767,
+
+  demonyms: { eng: { f: 'Brazilian', m: 'Brazilian' }, fra: { f: 'Brésilienne', m: 'Brésilien' } },
+
+  flag: 'https://flagcdn.com/w320/br.png',
+
+  maps: {
+
+    googleMaps: 'https://goo.gl/maps/waCKk21HeeqFzkNC9',
+
+    openStreetMaps: 'https://www.openstreetmap.org/relation/59470'
+
+  },
+
+  population: 212559409,
+
+  gini: { 2019: 53.4 },
+
+  fifa: 'BRA',
+
+  car: { signs: [ 'BR' ], side: 'right' },
+
+  timezones: [ 'UTC-05:00', 'UTC-04:00', 'UTC-03:00', 'UTC-02:00' ],
+
+  continents: [ 'South America' ],
+
+  flags: {
+
+    png: 'https://flagcdn.com/w320/br.png',
+
+    svg: 'https://flagcdn.com/br.svg',
+
+    alt:
+
+      'The flag of Brazil has a green field with a large yellow rhombus in the center. Within the rhombus is a dark blue globe with twenty-seven small five-pointed white stars depicting a starry sky and a thin white convex horizontal band inscribed with the national motto \'Ordem e Progresso\' across its center.'
+
+  },
+
+  coatOfArms: {
+
+    png: 'https://mainfacts.com/media/images/coats_of_arms/br.png',
+
+    svg: 'https://mainfacts.com/media/images/coats_of_arms/br.svg'
+
+  },
+
+  startOfWeek: 'monday',
+
+  capitalInfo: { latlng: [ -15.79, -47.88 ] },
+
+  postalCode: { format: '#####-###', regex: '^(\\d{8})$' }
+
+}
+
+export const MockTimezoneCountries = [
+
+  'Wallis and Futuna', 'New Zealand', 'Marshall Islands', 'Tuvalu', 'United States Minor Outlying Islands',
+
+  'Russia', 'Nauru', 'France', 'Antarctica', 'Kiribati', 'Fiji', 'United States'
+
+]
+
+export const MockGiniCountries = [ 'Mali', 'North Macedonia', 'Bosnia and Herzegovina' ]

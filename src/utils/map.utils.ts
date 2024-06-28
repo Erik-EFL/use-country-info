@@ -2,8 +2,8 @@ import { TCountryFlags } from 'src/types/contry-flags.type';
 import { TDdiInfo } from 'src/types/ddi.type';
 
 export const mapDdiInfo = (data: TDdiInfo): TDdiInfo => {
-  const { countryCallingCode, flag, flags } = data;
-  return { countryCallingCode, flag, flags };
+  const { countryCallingCode, flag, flags, cca3 } = data;
+  return { countryCallingCode, flag, flags, cca3 };
 };
 
 export const mapCountryFlags = (data: TCountryFlags): TCountryFlags => {

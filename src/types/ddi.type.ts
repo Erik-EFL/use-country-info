@@ -9,4 +9,5 @@ export type TDdiInfo = {
     alt?: string;
   };
   flag?: string;
+  cca3?: string;
 };
