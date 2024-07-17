@@ -1,18 +1,18 @@
 import assert from 'assert';
-import { useCountryInfo } from '../index';
 import { MockRegionCountries } from '../mock/data.mock';
+import { GetCountryBy } from '../services/get-country-by.service';
 
-const { getCountryByRegion } = useCountryInfo();
+const { Region } = GetCountryBy;
 
-describe('getCountryByRegion', () => {
+describe('get Country By Region', () => {
   it('should return countries searched', () => {
-    const result = getCountryByRegion('Europe').map(country => country?.name?.common);
+    const result = Region('Europe').map(country => country?.name?.common);
 
     assert.deepStrictEqual(result, MockRegionCountries)
   });
 
   it('should return empty array when no country is found', () => {
-    const result = getCountryByRegion('NoRegion');
+    const result = Region('NoRegion');
 
     assert.deepStrictEqual(result, [])
   });

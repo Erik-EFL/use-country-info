@@ -1,11 +1,11 @@
 import assert from 'assert';
-import { useCountryInfo } from '../index';
+import { GetCountryBy } from '../services/get-country-by.service';
 
-const { getCountryByPopulation } = useCountryInfo();
+const { Population } = GetCountryBy;
 
-describe('getCountryByPopulation', () => {
+describe('get Country By Population', () => {
   it('should return countries searched', () => {
-    const result = getCountryByPopulation(212559409).map(country => country?.name?.common);
+    const result = Population(212559409).map(country => country?.name?.common);
 
     assert.deepStrictEqual(result, ['Brazil'])
   });

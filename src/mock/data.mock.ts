@@ -671,7 +671,514 @@ export const MockLanguageCountries = [
 
 ]
 
-export const MockBorderCountries = [ 'Belgium', 'France', 'Germany' ]
+export const MockBorderFifaCountriesCommonNames = [ 'Belgium', 'France', 'Germany' ]
+
+export const MockBorderCca3CountriesCommonNames = [ "France" ]
+
+export const MockBorderCca3CompleteCountries = [
+  {
+    name: {
+      common: "France",
+      official: "French Republic",
+      nativeName: {
+        fra: {
+          official: "République française",
+          common: "France"
+        }
+      }
+    },
+    tld: [
+      ".fr"
+    ],
+    cca2: "FR",
+    ccn3: "250",
+    cca3: "FRA",
+    cioc: "FRA",
+    independent: true,
+    status: "officially-assigned",
+    unMember: true,
+    currencies: {
+      EUR: {
+        name: "Euro",
+        symbol: "€"
+      }
+    },
+    countryCallingCode: {
+      root: "+3",
+      suffixes: [
+        "3"
+      ]
+    },
+    capital: [
+      "Paris"
+    ],
+    altSpellings: [
+      "FR",
+      "French Republic",
+      "République française"
+    ],
+    region: "Europe",
+    subregion: "Western Europe",
+    languages: {
+      fra: "French"
+    },
+    latlng: [
+      46,
+      2
+    ],
+    landlocked: false,
+    borders: [
+      "AND",
+      "BEL",
+      "DEU",
+      "ITA",
+      "LUX",
+      "MCO",
+      "ESP",
+      "CHE"
+    ],
+    area: 551695,
+    demonyms: {
+      eng: {
+        f: "French",
+        m: "French"
+      },
+      fra: {
+        f: "Française",
+        m: "Français"
+      }
+    },
+    flag: "https://flagcdn.com/w320/fr.png",
+    maps: {
+      googleMaps: "https://goo.gl/maps/g7QxxSFsWyTPKuzd7",
+      openStreetMaps: "https://www.openstreetmap.org/relation/1403916"
+    },
+    population: 67391582,
+    gini: {
+      2018: 32.4
+    },
+    fifa: "FRA",
+    car: {
+      signs: [
+        "F"
+      ],
+      side: "right"
+    },
+    timezones: [
+      "UTC-10:00",
+      "UTC-09:30",
+      "UTC-09:00",
+      "UTC-08:00",
+      "UTC-04:00",
+      "UTC-03:00",
+      "UTC+01:00",
+      "UTC+02:00",
+      "UTC+03:00",
+      "UTC+04:00",
+      "UTC+05:00",
+      "UTC+10:00",
+      "UTC+11:00",
+      "UTC+12:00"
+    ],
+    continents: [
+      "Europe"
+    ],
+    flags: {
+      png: "https://flagcdn.com/w320/fr.png",
+      svg: "https://flagcdn.com/fr.svg",
+      alt: "The flag of France is composed of three equal vertical bands of blue, white and red."
+    },
+    coatOfArms: {
+      png: "https://mainfacts.com/media/images/coats_of_arms/fr.png",
+      svg: "https://mainfacts.com/media/images/coats_of_arms/fr.svg"
+    },
+    startOfWeek: "monday",
+    capitalInfo: {
+      latlng: [
+        48.87,
+        2.33
+      ]
+    },
+    postalCode: {
+      format: "#####",
+      regex: "^(\\d{5})$"
+    }
+  },
+]
+
+export const MockResponseBordersCountries = [
+  {
+    name: {
+      common: "Belgium",
+      official: "Kingdom of Belgium",
+      nativeName: {
+        deu: {
+          official: "Königreich Belgien",
+          common: "Belgien"
+        },
+        fra: {
+          official: "Royaume de Belgique",
+          common: "Belgique"
+        },
+        nld: {
+          official: "Koninkrijk België",
+          common: "België"
+        }
+      }
+    },
+    tld: [
+      ".be"
+    ],
+    cca2: "BE",
+    ccn3: "056",
+    cca3: "BEL",
+    cioc: "BEL",
+    independent: true,
+    status: "officially-assigned",
+    unMember: true,
+    currencies: {
+      EUR: {
+        name: "Euro",
+        symbol: "€"
+      }
+    },
+    countryCallingCode: {
+      root: "+3",
+      suffixes: [
+        "2"
+      ]
+    },
+    capital: [
+      "Brussels"
+    ],
+    altSpellings: [
+      "BE",
+      "België",
+      "Belgie",
+      "Belgien",
+      "Belgique",
+      "Kingdom of Belgium",
+      "Koninkrijk België",
+      "Royaume de Belgique",
+      "Königreich Belgien"
+    ],
+    region: "Europe",
+    subregion: "Western Europe",
+    languages: {
+      deu: "German",
+      fra: "French",
+      nld: "Dutch"
+    },
+    latlng: [
+      50.83333333,
+      4
+    ],
+    landlocked: false,
+    borders: [
+      "FRA",
+      "DEU",
+      "LUX",
+      "NLD"
+    ],
+    area: 30528,
+    demonyms: {
+      eng: {
+        f: "Belgian",
+        m: "Belgian"
+      },
+      fra: {
+        f: "Belge",
+        m: "Belge"
+      }
+    },
+    flag: "https://flagcdn.com/w320/be.png",
+    maps: {
+      googleMaps: "https://goo.gl/maps/UQQzat85TCtPRXAL8",
+      openStreetMaps: "https://www.openstreetmap.org/relation/52411"
+    },
+    population: 11555997,
+    gini: {
+      2018: 27.2
+    },
+    fifa: "BEL",
+    car: {
+      signs: [
+        "B"
+      ],
+      side: "right"
+    },
+    timezones: [
+      "UTC+01:00"
+    ],
+    continents: [
+      "Europe"
+    ],
+    flags: {
+      png: "https://flagcdn.com/w320/be.png",
+      svg: "https://flagcdn.com/be.svg",
+      alt: "The flag of Belgium is composed of three equal vertical bands of black, yellow and red."
+    },
+    coatOfArms: {
+      png: "https://mainfacts.com/media/images/coats_of_arms/be.png",
+      svg: "https://mainfacts.com/media/images/coats_of_arms/be.svg"
+    },
+    startOfWeek: "monday",
+    capitalInfo: {
+      latlng: [
+        50.83,
+        4.33
+      ]
+    },
+    postalCode: {
+      format: "####",
+      regex: "^(\\d{4})$"
+    }
+  },
+  {
+    name: {
+      common: "France",
+      official: "French Republic",
+      nativeName: {
+        fra: {
+          official: "République française",
+          common: "France"
+        }
+      }
+    },
+    tld: [
+      ".fr"
+    ],
+    cca2: "FR",
+    ccn3: "250",
+    cca3: "FRA",
+    cioc: "FRA",
+    independent: true,
+    status: "officially-assigned",
+    unMember: true,
+    currencies: {
+      EUR: {
+        name: "Euro",
+        symbol: "€"
+      }
+    },
+    countryCallingCode: {
+      root: "+3",
+      suffixes: [
+        "3"
+      ]
+    },
+    capital: [
+      "Paris"
+    ],
+    altSpellings: [
+      "FR",
+      "French Republic",
+      "République française"
+    ],
+    region: "Europe",
+    subregion: "Western Europe",
+    languages: {
+      fra: "French"
+    },
+    latlng: [
+      46,
+      2
+    ],
+    landlocked: false,
+    borders: [
+      "AND",
+      "BEL",
+      "DEU",
+      "ITA",
+      "LUX",
+      "MCO",
+      "ESP",
+      "CHE"
+    ],
+    area: 551695,
+    demonyms: {
+      eng: {
+        f: "French",
+        m: "French"
+      },
+      fra: {
+        f: "Française",
+        m: "Français"
+      }
+    },
+    flag: "https://flagcdn.com/w320/fr.png",
+    maps: {
+      googleMaps: "https://goo.gl/maps/g7QxxSFsWyTPKuzd7",
+      openStreetMaps: "https://www.openstreetmap.org/relation/1403916"
+    },
+    population: 67391582,
+    gini: {
+      2018: 32.4
+    },
+    fifa: "FRA",
+    car: {
+      signs: [
+        "F"
+      ],
+      side: "right"
+    },
+    timezones: [
+      "UTC-10:00",
+      "UTC-09:30",
+      "UTC-09:00",
+      "UTC-08:00",
+      "UTC-04:00",
+      "UTC-03:00",
+      "UTC+01:00",
+      "UTC+02:00",
+      "UTC+03:00",
+      "UTC+04:00",
+      "UTC+05:00",
+      "UTC+10:00",
+      "UTC+11:00",
+      "UTC+12:00"
+    ],
+    continents: [
+      "Europe"
+    ],
+    flags: {
+      png: "https://flagcdn.com/w320/fr.png",
+      svg: "https://flagcdn.com/fr.svg",
+      alt: "The flag of France is composed of three equal vertical bands of blue, white and red."
+    },
+    coatOfArms: {
+      png: "https://mainfacts.com/media/images/coats_of_arms/fr.png",
+      svg: "https://mainfacts.com/media/images/coats_of_arms/fr.svg"
+    },
+    startOfWeek: "monday",
+    capitalInfo: {
+      latlng: [
+        48.87,
+        2.33
+      ]
+    },
+    postalCode: {
+      format: "#####",
+      regex: "^(\\d{5})$"
+    }
+  },
+  {
+    name: {
+      common: "Germany",
+      official: "Federal Republic of Germany",
+      nativeName: {
+        deu: {
+          official: "Bundesrepublik Deutschland",
+          common: "Deutschland"
+        }
+      }
+    },
+    tld: [
+      ".de"
+    ],
+    cca2: "DE",
+    ccn3: "276",
+    cca3: "DEU",
+    cioc: "GER",
+    independent: true,
+    status: "officially-assigned",
+    unMember: true,
+    currencies: {
+      EUR: {
+        name: "Euro",
+        symbol: "€"
+      }
+    },
+    countryCallingCode: {
+      root: "+4",
+      suffixes: [
+        "9"
+      ]
+    },
+    capital: [
+      "Berlin"
+    ],
+    altSpellings: [
+      "DE",
+      "Federal Republic of Germany",
+      "Bundesrepublik Deutschland"
+    ],
+    region: "Europe",
+    subregion: "Western Europe",
+    languages: {
+      deu: "German"
+    },
+    latlng: [
+      51,
+      9
+    ],
+    landlocked: false,
+    borders: [
+      "AUT",
+      "BEL",
+      "CZE",
+      "DNK",
+      "FRA",
+      "LUX",
+      "NLD",
+      "POL",
+      "CHE"
+    ],
+    area: 357114,
+    demonyms: {
+      eng: {
+        f: "German",
+        m: "German"
+      },
+      fra: {
+        f: "Allemande",
+        m: "Allemand"
+      }
+    },
+    flag: "https://flagcdn.com/w320/de.png",
+    maps: {
+      googleMaps: "https://goo.gl/maps/mD9FBMq1nvXUBrkv6",
+      openStreetMaps: "https://www.openstreetmap.org/relation/51477"
+    },
+    population: 83240525,
+    gini: {
+      2016: 31.9
+    },
+    fifa: "GER",
+    car: {
+      signs: [
+        "DY"
+      ],
+      side: "right"
+    },
+    timezones: [
+      "UTC+01:00"
+    ],
+    continents: [
+      "Europe"
+    ],
+    flags: {
+      png: "https://flagcdn.com/w320/de.png",
+      svg: "https://flagcdn.com/de.svg",
+      alt: "The flag of Germany is composed of three equal horizontal bands of black, red and gold."
+    },
+    coatOfArms: {
+      png: "https://mainfacts.com/media/images/coats_of_arms/de.png",
+      svg: "https://mainfacts.com/media/images/coats_of_arms/de.svg"
+    },
+    startOfWeek: "monday",
+    capitalInfo: {
+      latlng: [
+        52.52,
+        13.4
+      ]
+    },
+    postalCode: {
+      format: "#####",
+      regex: "^(\\d{5})$"
+    }
+  },
+];
 
 export const MockCurrencyCountries = [
 

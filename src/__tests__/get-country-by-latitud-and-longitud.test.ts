@@ -1,12 +1,12 @@
-import { useCountryInfo } from '../index'
+import { GetCountryBy } from '../services/get-country-by.service';
 
 const {
-  getCountryByLatitudAndLongitud,
-} = useCountryInfo();
+  LatitudAndLongitud,
+} = GetCountryBy;
 
-describe('getCountryByLatitudAndLongitud', () => {
+describe('get Country By LatitudAndLongitud', () => {
   it('should return contry searched', () => {
-    const result = getCountryByLatitudAndLongitud(47.33333333, 13.33333333);
+    const result = LatitudAndLongitud(47.33333333, 13.33333333);
     const expectedCountryName = 'Austria';
 
     expect(result?.[0].name?.common).toBe(expectedCountryName);

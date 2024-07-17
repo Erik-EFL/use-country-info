@@ -1,17 +1,17 @@
 import assert from 'assert';
-import { useCountryInfo } from '../index';
+import { GetCountryBy } from '../services/get-country-by.service';
 
-const { getCountryByCapital } = useCountryInfo();
+const { Capital } = GetCountryBy;
 
-describe('getCountryByCapital', () => {
+describe('get Country By Capital', () => {
   it('should return countries searched', () => {
-    const result = getCountryByCapital('Brasília').map(country => country?.name?.common);
+    const result = Capital('Brasília').map(country => country?.name?.common);
 
     assert.deepStrictEqual(result, ['Brazil'])
   });
 
   it('should return empty array when no country is found', () => {
-    const result = getCountryByCapital('NoCountry');
+    const result = Capital('NoCountry');
 
     assert.deepStrictEqual(result, [])
   });

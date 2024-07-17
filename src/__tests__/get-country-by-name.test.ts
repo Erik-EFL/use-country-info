@@ -1,19 +1,19 @@
-import { useCountryInfo } from '../index'
+import { MockCallingCodeCountrie } from '../mock/data.mock';
 import assert from 'assert';
+import { GetCountryBy } from '../services/get-country-by.service';
 
-const { getCountryByName } = useCountryInfo();
+const { Name } = GetCountryBy;
 
-describe('getCountryByName', () => {
+describe('get Country By Name', () => {
   it('should return country searched', () => {
-    const result = getCountryByName('Luxembourg');
-    const expectedCountryName = 'Luxembourg';
+    const result = Name('Brazil');
 
-    assert.deepStrictEqual(result?.name?.common, expectedCountryName)
+    assert.deepStrictEqual(result, MockCallingCodeCountrie)
   });
 
-  it('should return undefined when no country is found', () => {
-    const result = getCountryByName('NoCountry');
+  it('should return null when no country is found', () => {
+    const result = Name('NoCountry');
 
-    assert.deepStrictEqual(result, undefined)
+    assert.deepStrictEqual(result, null)
   });
 })

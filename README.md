@@ -208,27 +208,6 @@ export default PageExample;
 ```
 </details>
 
-## Additional functions to search for different information from each country:
-
-```js
-  getCountryByBorder(searchedBorder), // string,
-  getCountryByName(name), // string,
-  getCountryByFlag(name), // string,
-  getCountryByRegion(region), // string,
-  getCountryBySubregion(subregion), // string,
-  getCountryByLanguage(language), // string,
-  getCountryByCurrency(currency), // string,
-  getCountryByCallingCode(callingCode), // string,
-  getCountryByTimezone(timezone), // string,
-  getCountryByCapital(capital), // string,
-  getCountryByPopulation(population), // number,
-  getCountryByArea(area), // number,
-  getCountryByDemonym(demonym), // string,
-  getCountryByLatitudAndLongitud(latitude, longitude), // number,
-  getCountryByGini(gini), // number,
-  getCountryByFifa(fifaName), //string,
-```
-
 ## Contribution
 This is an open-source project, and we welcome contributions from the community. If you encounter issues, bugs, or have ideas for improvements, feel free to open an issue or submit a pull request in the official repository on GitHub.
 

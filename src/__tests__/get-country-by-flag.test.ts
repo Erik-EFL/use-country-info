@@ -1,18 +1,18 @@
-import { useCountryInfo } from '../index'
+import { GetCountryBy } from '../services/get-country-by.service';
 import assert from 'assert';
 
-const { getCountryByFlag } = useCountryInfo();
+const { Flag } = GetCountryBy;
 
-describe('getCountryByFlag', () => {
+describe('get Country By Flag', () => {
   it('should return country searched', () => {
-    const result = getCountryByFlag('BR');
+    const result = Flag('BR');
     const expectedCountryName = 'Brazil';
 
     assert.strictEqual(result?.name?.common, expectedCountryName);
   });
 
   it('should return empty array when no country is found', () => {
-    const result = getCountryByFlag('USBR');
+    const result = Flag('USBR');
 
     assert.deepStrictEqual(result, undefined)
   });

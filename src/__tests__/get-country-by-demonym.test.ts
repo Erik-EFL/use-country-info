@@ -1,17 +1,17 @@
 import assert from 'assert';
-import { useCountryInfo } from '../index';
+import { GetCountryBy } from '../services/get-country-by.service';
 
-const { getCountryByDemonym } = useCountryInfo();
+const { Demonym } = GetCountryBy;
 
-describe('getCountryByDemonym', () => {
+describe('get Country By Demonym', () => {
   it('should return countries searched', () => {
-    const result = getCountryByDemonym('Brazilian').map(country => country?.name?.common);
+    const result = Demonym('Brazilian').map(country => country?.name?.common);
 
     assert.deepStrictEqual(result, ['Brazil'])
   });
 
   it('should return empty array when no country is found', () => {
-    const result = getCountryByDemonym('NoCountry');
+    const result = Demonym('NoCountry');
 
     assert.deepStrictEqual(result, [])
   });
