@@ -1,18 +1,18 @@
-import { useCountryInfo } from '../index'
+import { GetCountryBy } from '../services/get-country-by.service';
 import assert from 'assert';
 
-const { getCountryByCca3 } = useCountryInfo();
+const { Cca3 } = GetCountryBy;
 
-describe('getCountryByCca3', () => {
+describe('get Country By Cca3', () => {
   it('should return country searched', () => {
-    const result = getCountryByCca3('LUX');
+    const result = Cca3('LUX');
     const expectedCountryName = 'Luxembourg';
 
     assert.strictEqual(result?.name?.common, expectedCountryName)
   });
 
   it('should return undefined when no country is found', () => {
-    const result = getCountryByCca3('NoCountry');
+    const result = Cca3('NoCountry');
 
     assert.strictEqual(result, undefined)
   });

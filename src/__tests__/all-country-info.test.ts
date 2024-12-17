@@ -1,3 +1,4 @@
+import { apiData } from '../constant/data';
 import { useCountryInfo } from '../index'
 import assert from 'assert';
 
@@ -18,5 +19,10 @@ describe('UseCountryInfo', () => {
     const allCountryInfoMock = [];
 
     assert.strictEqual(allCountryInfoMock.length, 0)
+  });
+
+  test('allCountryInfo should be initialized correctly', () => {
+    const { allCountryInfo } = useCountryInfo();
+    expect(allCountryInfo).toEqual(apiData);
   });
 });

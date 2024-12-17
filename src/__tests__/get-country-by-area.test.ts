@@ -1,11 +1,11 @@
 import assert from 'assert';
-import { useCountryInfo } from '../index';
+import { GetCountryBy } from '../services/get-country-by.service';
 
-const { getCountryByArea } = useCountryInfo();
+const { Area } = GetCountryBy
 
-describe('getCountryByArea', () => {
+describe('get Country By Area', () => {
   it('should return countries searched', () => {
-    const result = getCountryByArea(8515767).map(country => country?.name?.common);
+    const result = Area(8515767).map(country => country?.name?.common);
 
     assert.deepStrictEqual(result, ['Brazil'])
   });

@@ -1,18 +1,18 @@
 import assert from 'assert';
-import { useCountryInfo } from '../index';
 import { MockGiniCountries } from '../mock/data.mock';
+import { GetCountryBy } from '../services/get-country-by.service';
 
-const { getCountryByGini } = useCountryInfo();
+const { Gini } = GetCountryBy;
 
-describe('getCountryByGini', () => {
+describe('get Country By Gini', () => {
   it('should return countries searched', () => {
-    const result = getCountryByGini(33).map(country => country?.name?.common);
+    const result = Gini(33).map(country => country?.name?.common);
 
     assert.deepStrictEqual(result, MockGiniCountries)
   });
 
   it('should return empty array when no country is found', () => {
-    const result = getCountryByGini(0);
+    const result = Gini(0);
 
     assert.deepStrictEqual(result, [])
   });
