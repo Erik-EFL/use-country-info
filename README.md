@@ -216,7 +216,7 @@ This project is tested with BrowserStack
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more information.
 
-[License](https://opensource.org/licenses/MIT)
+MIT License. See [LICENSE](./LICENSE.md) for details.
 
 </br>
 </br>
