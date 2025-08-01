@@ -211,8 +211,12 @@ export default PageExample;
 ## Contribution
 This is an open-source project, and we welcome contributions from the community. If you encounter issues, bugs, or have ideas for improvements, feel free to open an issue or submit a pull request in the official repository on GitHub.
 
+This project is tested with BrowserStack
+
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more information.
+
+[License](https://opensource.org/licenses/MIT)
 
 </br>
 </br>
