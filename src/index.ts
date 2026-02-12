@@ -1,9 +1,9 @@
-import { apiData } from './constant/data';
-import { GetCountryBy } from './services/get-country-by.service';
-import { TCountryFlags } from './types/contry-flags.type';
-import { TCountryInfo } from './types/country.type';
-import { TDdiInfo } from './types/ddi.type';
-import { mapCountryFlags, mapDdiInfo } from './utils/map.utils';
+import { TCountryFlags } from "./@types/contry-flags.type";
+import { TCountryInfo } from "./@types/country.type";
+import { TDdiInfo } from "./@types/ddi.type";
+import { apiData } from "./constant/data";
+import { GetCountryBy } from "./services/get-country-by.service";
+import { mapCountryFlags, mapDdiInfo } from "./utils/map.utils";
 
 /**
  * Hook for accessing country information.
@@ -51,3 +51,8 @@ export const useCountryInfo = () => {
     Cca3: GetCountryBy.Cca3,
   };
 };
+
+// Reexport the types for external use
+export type { TCountryFlags } from "./@types/contry-flags.type";
+export type { TCountryInfo } from "./@types/country.type";
+export type { TDdiInfo } from "./@types/ddi.type";
