@@ -28,7 +28,8 @@
     "area"
   ],
   "scripts": {
-    "build": "parcel build ./src/index.ts",
+    "build": "parcel build ./src/index.ts && npm run build:types",
+    "build:types": "tsc -p tsconfig.build.json",
     "test": "jest",
     "test:watch": "jest --watchAll",
     "coverage": "node test.config.js --watchAll=false --coverage --watchAll=false",
