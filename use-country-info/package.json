@@ -1,0 +1,45 @@
+{
+  "name": "use-country-info",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "7.12.0",
+    "use-country-info": "^1.0.29"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.79",
+    "@types/react-dom": "^18.2.25",
+    "@vitejs/plugin-react": "^4.3.1",
+    "gh-pages": "^6.3.0",
+    "typescript": "4.9.5",
+    "vite": "^7.3.1"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "homepage": "https://erik-efl.github.io/use-country-info",
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
