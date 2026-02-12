@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
     "target": "es6",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -12,7 +16,6 @@
     "outDir": "./dist",
     "esModuleInterop": true,
     "module": "CommonJS",
-    "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noImplicitAny": false,
@@ -20,9 +23,19 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": [
+        "./src/*"
+      ]
     },
   },
-  "include": ["src/**/*", "**/*.ts", "**/*.tsx", "test.config.js"],
-  "exclude": ["node_modules", "mock", "test.config.js"]
+  "include": [
+    "src/**/*",
+    "test.config.js",
+    "src/@types"
+  ],
+  "exclude": [
+    "node_modules",
+    "mock",
+    "test.config.js"
+  ]
 }
