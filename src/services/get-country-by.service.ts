@@ -1,41 +1,48 @@
+import { TCountryInfo } from "@/@types/country.type";
 import { apiData } from "../constant/data";
-import { TCountryInfo } from "@/types/country.type";
 
 export class GetCountryBy {
   static Border = (searchedBorder: string): TCountryInfo[] => {
-   let countryFind: string;
-   const cca3 = this.Cca3(searchedBorder)?.cca3 as string;
-   const fifa = this.Fifa(searchedBorder)?.fifa as string;
-   const country = this.Name(searchedBorder)?.cca3 as string;
+    let countryFind: string;
+    const cca3 = this.Cca3(searchedBorder)?.cca3 as string;
+    const fifa = this.Fifa(searchedBorder)?.fifa as string;
+    const country = this.Name(searchedBorder)?.cca3 as string;
 
-   if (cca3) {
-     countryFind = cca3;
-   } else if (fifa) {
-     countryFind = fifa;
-   } else {
-     countryFind = country;
-   }
+    if (cca3) {
+      countryFind = cca3;
+    } else if (fifa) {
+      countryFind = fifa;
+    } else {
+      countryFind = country;
+    }
 
-   const result = apiData.filter((country) => {
-     return country.borders?.includes(countryFind);
-   });
+    const result = apiData.filter((country) => {
+      return country.borders?.includes(countryFind);
+    });
 
-   return result;
+    return result;
   };
 
   static Name = (name: string): TCountryInfo | null => {
     let result: TCountryInfo | null = null;
 
-    const matchCountryByName = (country: TCountryInfo, name: string): boolean => {
+    const matchCountryByName = (
+      country: TCountryInfo,
+      name: string
+    ): boolean => {
       return (
-        country.name?.nativeName?.por?.common?.toLowerCase() === name.toLowerCase() ||
+        country.name?.nativeName?.por?.common?.toLowerCase() ===
+          name.toLowerCase() ||
         country.name?.common?.toLowerCase() === name.toLowerCase() ||
         country.name?.official?.toLowerCase() === name.toLowerCase() ||
-        country.name?.nativeName?.por?.official?.toLowerCase() === name.toLowerCase()
+        country.name?.nativeName?.por?.official?.toLowerCase() ===
+          name.toLowerCase()
       );
     };
 
-    result = apiData?.find((country) => matchCountryByName(country, name)) as TCountryInfo;
+    result = apiData?.find((country) =>
+      matchCountryByName(country, name)
+    ) as TCountryInfo;
 
     return result || null;
   };
@@ -142,7 +149,9 @@ export class GetCountryBy {
     longitude: number
   ): TCountryInfo[] => {
     return apiData.filter((country) => {
-      return country.latlng?.[0] === latitude && country.latlng?.[1] === longitude;
+      return (
+        country.latlng?.[0] === latitude && country.latlng?.[1] === longitude
+      );
     });
   };
 
@@ -165,7 +174,9 @@ export class GetCountryBy {
       countryFind = shortName as string;
     }
 
-    fifa = apiData.find((country) => country.fifa === countryFind) as TCountryInfo;
+    fifa = apiData.find(
+      (country) => country.fifa === countryFind
+    ) as TCountryInfo;
 
     return fifa;
   };
